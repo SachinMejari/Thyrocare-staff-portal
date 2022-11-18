@@ -1,0 +1,11 @@
+﻿const LengthErrorMsg = "seems too small..!";
+const MinLength_Name = 2;
+const MinLength_LName = 2;
+const MinLength_Email = 10;
+const MinLength_Mobile = 10;
+const MinLength_Address = 25;
+const MinLength_City = 3;
+const MinLength_State = 3;
+const MinLength_Pincode = 6;
+const MinLength_Aadhar = 12;
+const MinLength_Landmark = 5;

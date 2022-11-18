@@ -1,0 +1,262 @@
+﻿@{
+    ViewData["Title"] = "Staff :: Booking Details";
+    Layout = "~/Views/Shared/_ViewTemplate.cshtml";
+}
+<style>
+    #RefferedDateTime {
+    background-color: #ffffff;
+    font-family: consolas,"courier new",monospace;
+    font-size: 15px;
+    height: 100%;
+    width: 100%;
+   
+    resize: none;
+    border: none;
+    line-height: normal;
+}
+</style>
+
+@if (Model != null)
+{
+    <div class="content-page dh-content">
+        <div class="content">
+
+            <!-- Start Content-->
+            <div class="container-fluid">
+                <div id="menuOverlay" class="w3-overlay w3-transparent" style="cursor:pointer;z-index:4"></div>
+                <div id="textareacontainer dh-container">
+                    <div id="textarea">
+                        <div id="textareawrapperdc-table">
+                            <div class="page-title-box">
+                                <!-- New code starts here -->
+                                <div id="products">
+                                    <div class="container mainform">
+                                        <div class="row pt-2">
+                                            <div class="col-sm-12 col-md-12 mob_col_pad">
+                                                <div class="cart-wrapper parsonal-wrapper checkout-wrapp booking-conf-wrap">
+
+                                                    @{
+                                                        string CustomerNames = "";
+                                                        foreach (var ItemBen in Model.Beneficiaries)
+                                                        {
+                                                            if (CustomerNames == "")
+                                                            {
+                                                                CustomerNames = ItemBen.name;
+                                                            }
+                                                            else
+                                                            {
+                                                                CustomerNames += ", " + ItemBen.name;
+                                                            }
+                                                        }
+                                                    }
+
+                                                    <h4 class="profile-title">Booking Confirmed for "@Model.Beneficiaries[0].name"</h4>
+                                                    <h4>You have successfully booked your test(s) for further Customer <img src="~/assets/images/icon.png" height="30px"></h4>
+                                                    <hr>
+                                                    <form class="cart-container clearfix">
+                                                        <div class="row clearfix">
+                                                            <div class="col-lg-6 col-sm-6" style="padding-bottom: 3px;">
+                                                                <div class="table-responsive">
+                                                                    <table cellpadding="10">
+                                                                        <thead>
+                                                                            <tr>
+                                                                                <th colspan="3" class="rtecenter fhead">
+                                                                                    ORDER DETAILS
+                                                                                </th>
+                                                                                <th>
+                                                                                </th>
+                                                                            </tr>
+                                                                        </thead>
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td class="first_tbl_width">Order Date</td>
+                                                                                <td>:</td>
+                                                                                <td>@Model.OrderDate</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td class="first_tbl_width">Order ID</td>
+                                                                                <td>:</td>
+                                                                                <td>@Model.OrderNo</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td class="first_tbl_width">Payment Type</td>
+                                                                                <td>:</td>
+                                                                                <td>@Model.PaymentMode</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td class="first_tbl_width">Hardcopy</td>
+                                                                                <td>:</td>
+                                                                                <td>@Model.ReportHardcopy</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td class="first_tbl_width">Fasting</td>
+                                                                                <td>:</td>
+                                                                                <td>@Model.Fasting</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td class="first_tbl_width">Reffered Date and Time </td>
+                                                                                <td>:</td>
+                                                                                <td>
+                                                                                    @{
+                                                                                        if (!string.IsNullOrEmpty(Model.Appointment.Trim()))
+                                                                                        {
+                                                                                            DateTime addhour = DateTime.Parse(Model.Appointment);
+                                                                                            DateTime x30MinsLater = addhour.AddHours(1);
+                                                                                            @String.Format("{0:dd-MM-yyyy} {0:HH:mm} - {1:HH:mm}", DateTime.Parse(Model.Appointment), x30MinsLater);
+                                                                                        }
+                                                                                        else
+                                                                                        {
+                                                                                            <span id="RefferedDateTime">pincode not serviceble - we will get back in next 24 hours</span>
+                                                                                            //@Model.Appointment;
+                                                                                        }
+                                                                                    }
+                                                                                </td>
+                                                                            </tr>
+                                                                            @*<tr>
+                                                                                    <td class="first_tbl_width">Your Due Incentive </td>
+                                                                                    <td>:</td>
+                                                                                    <td>Rs. 952</td>
+                                                                                </tr>*@
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-6 col-sm-6">
+                                                                <div class="table-responsive">
+                                                                    <table cellpadding="10">
+                                                                        <thead>
+                                                                            <tr>
+                                                                                <th colspan="3" class="rtecenter fhead">
+                                                                                    BENEFICIARY DETAILS
+                                                                                </th>
+                                                                                <th>
+                                                                                </th>
+                                                                            </tr>
+                                                                        </thead>
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td class="left_td_width">Customer Name</td>
+                                                                                <td>:</td>
+                                                                                <td>@CustomerNames</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td class="left_td_width">Test Details</td>
+                                                                                <td>:</td>
+                                                                                <td>@Model.Tests</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td class="left_td_width">Mobile No.</td>
+                                                                                <td>:</td>
+                                                                                <td>@Model.Mobile</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td class="left_td_width">Email ID</td>
+                                                                                <td>:</td>
+                                                                                <td>@Model.Email</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td class="left_td_width">Collection Address	</td>
+                                                                                <td>:</td>
+                                                                                <td>@Model.Address</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td class="left_td_width">Customer Pay</td>
+                                                                                <td>:</td>
+                                                                                @{ if (Model.ReportHardcopy == "YES")
+                                                                                    {
+                                                                                        <td>RS. @Model.CustomerRate (Hardcopy Excluded.)</td>
+                                                                                    }
+                                                                                    else
+                                                                                    {
+                                                                                        <td>RS. @Model.CustomerRate </td>
+                                                                                    }
+                                                                                }
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                            </div>
+
+
+                                                            <!--<div class="col-lg-6 col-sm-6">
+                                                                <div class="table-responsive">
+                                                                    <table>
+                                                                        <thead>
+                                                                            <tr>
+                                                                                <th colspan="3" class="rtecenter fhead">BENEFICIARY DETAILS
+                                                                                    </th><th>
+                                                                            </th></tr>
+                                                                        </thead>
+                                                                        <tbody>
+                                                                            <tr>
+                                                                                <td>Customer Name </td>
+                                                                                <td>:</td>
+                                                                                <td>DAVIS JANE, SMITH JANE</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>Test Details </td>
+                                                                                <td>:</td>
+                                                                                <td>AAROGYAM 1.2, INSFA</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>Mobile No. </td>
+                                                                                <td>:</td>
+                                                                                <td>7513200000</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>Email ID </td>
+                                                                                <td>:</td>
+                                                                                <td>smith.jane@gmail.com</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>Collection Address </td>
+                                                                                <td>:</td>
+                                                                                <td>Mr. S.M.JANE, FLAT NO 100, TRIVENI
+                                                                                    <br> APARTMENTS, NEW DELHI,
+                                                                                    <br> MAHARASHTRA INDIA, PIN CODE - 110034</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>Customer Pay </td>
+                                                                                <td>:</td>
+                                                                                <td>RS. 3037</td>
+                                                                            </tr>
+                                                                        </tbody>
+                                                                    </table>
+                                                                </div>
+                                                            </div>-->
+
+                                                        </div>
+                                                        <div align="center"><a href="TestMenu" class="btn report-bttn" align="center">Home</a></div>
+                                                        <hr>
+                                                        <div class="">
+                                                            <div class="col-sm-12 notes-section">
+                                                                <ul>
+                                                                    <li>You will Receive an email further information, once we assign blood collection technician.</li>
+                                                                    <li>Soft copy Reports will be emailed to customer within 48 hours of sample collection.</li>
+                                                                    <li>Hard copy report will be delivered within 3-4 working days.</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- New code ends here -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--container-->
+        </div><!--content--->
+    </div>
+
+}
+<script>
+    $(document).ready(function () {
+        localStorage.removeItem(LOCALSTORAGE.ITEMS);
+        localStorage.removeItem(LOCALSTORAGE.MstTests);
+        localStorage.removeItem(LOCALSTORAGE.SelectedItems);
+    });
+</script>

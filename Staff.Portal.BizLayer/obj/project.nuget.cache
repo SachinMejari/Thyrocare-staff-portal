@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "YYQ3CtW5TDosi1lmaUj7B/6ZXJq6nZ+1W21leVlcz2cSxFtMCZLq3XFf8XG2i9rFtOOyIrRi83DSVJgKkVjmNg==",
+  "success": true,
+  "projectFilePath": "D:\\Live Solution\\Thyrocare.Staff.Portal\\Staff.Portal.BizLayer\\Staff.Portal.BizLayer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\E3128\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

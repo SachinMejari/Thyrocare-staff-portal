@@ -1,0 +1,193 @@
+E:\Namrata\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.BizLayer.deps.json
+E:\Namrata\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.BizLayer.dll
+E:\Namrata\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.BizLayer.pdb
+E:\Namrata\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Interfaces.dll
+E:\Namrata\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Models.dll
+E:\Namrata\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Service.dll
+E:\Namrata\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Utilities.dll
+E:\Namrata\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Interfaces.pdb
+E:\Namrata\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Models.pdb
+E:\Namrata\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Service.pdb
+E:\Namrata\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Utilities.pdb
+E:\Namrata\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.csprojAssemblyReference.cache
+E:\Namrata\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.AssemblyInfoInputs.cache
+E:\Namrata\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.AssemblyInfo.cs
+E:\Namrata\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.csproj.CopyComplete
+E:\Namrata\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.dll
+E:\Namrata\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.pdb
+D:\Live Solutions\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.BizLayer.deps.json
+D:\Live Solutions\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.BizLayer.dll
+D:\Live Solutions\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.BizLayer.pdb
+D:\Live Solutions\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Interfaces.dll
+D:\Live Solutions\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Models.dll
+D:\Live Solutions\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Service.dll
+D:\Live Solutions\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Utilities.dll
+D:\Live Solutions\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Interfaces.pdb
+D:\Live Solutions\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Models.pdb
+D:\Live Solutions\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Service.pdb
+D:\Live Solutions\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Utilities.pdb
+D:\Live Solutions\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.csprojAssemblyReference.cache
+D:\Live Solutions\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.AssemblyInfoInputs.cache
+D:\Live Solutions\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.AssemblyInfo.cs
+D:\Live Solutions\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.csproj.CopyComplete
+D:\Live Solutions\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.dll
+D:\Live Solutions\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.pdb
+\\CPLD3DTP0021\Team Sharing\KALPESH\28-05-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.BizLayer.deps.json
+\\CPLD3DTP0021\Team Sharing\KALPESH\28-05-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.BizLayer.dll
+\\CPLD3DTP0021\Team Sharing\KALPESH\28-05-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.BizLayer.pdb
+\\CPLD3DTP0021\Team Sharing\KALPESH\28-05-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Interfaces.dll
+\\CPLD3DTP0021\Team Sharing\KALPESH\28-05-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Models.dll
+\\CPLD3DTP0021\Team Sharing\KALPESH\28-05-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Service.dll
+\\CPLD3DTP0021\Team Sharing\KALPESH\28-05-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Utilities.dll
+\\CPLD3DTP0021\Team Sharing\KALPESH\28-05-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Interfaces.pdb
+\\CPLD3DTP0021\Team Sharing\KALPESH\28-05-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Models.pdb
+\\CPLD3DTP0021\Team Sharing\KALPESH\28-05-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Service.pdb
+\\CPLD3DTP0021\Team Sharing\KALPESH\28-05-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Utilities.pdb
+\\CPLD3DTP0021\Team Sharing\KALPESH\28-05-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.csprojAssemblyReference.cache
+\\CPLD3DTP0021\Team Sharing\KALPESH\28-05-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.AssemblyInfoInputs.cache
+\\CPLD3DTP0021\Team Sharing\KALPESH\28-05-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.AssemblyInfo.cs
+\\CPLD3DTP0021\Team Sharing\KALPESH\28-05-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.csproj.CopyComplete
+\\CPLD3DTP0021\Team Sharing\KALPESH\28-05-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.dll
+\\CPLD3DTP0021\Team Sharing\KALPESH\28-05-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.pdb
+E:\Latest solutions\01-06-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.BizLayer.deps.json
+E:\Latest solutions\01-06-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.BizLayer.dll
+E:\Latest solutions\01-06-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.BizLayer.pdb
+E:\Latest solutions\01-06-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Interfaces.dll
+E:\Latest solutions\01-06-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Models.dll
+E:\Latest solutions\01-06-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Service.dll
+E:\Latest solutions\01-06-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Utilities.dll
+E:\Latest solutions\01-06-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Interfaces.pdb
+E:\Latest solutions\01-06-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Models.pdb
+E:\Latest solutions\01-06-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Service.pdb
+E:\Latest solutions\01-06-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Utilities.pdb
+E:\Latest solutions\01-06-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.csprojAssemblyReference.cache
+E:\Latest solutions\01-06-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.AssemblyInfoInputs.cache
+E:\Latest solutions\01-06-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.AssemblyInfo.cs
+E:\Latest solutions\01-06-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.csproj.CopyComplete
+E:\Latest solutions\01-06-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.dll
+E:\Latest solutions\01-06-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.pdb
+D:\Live Solutions\11062021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.BizLayer.deps.json
+D:\Live Solutions\11062021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.BizLayer.dll
+D:\Live Solutions\11062021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.BizLayer.pdb
+D:\Live Solutions\11062021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Interfaces.dll
+D:\Live Solutions\11062021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Models.dll
+D:\Live Solutions\11062021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Service.dll
+D:\Live Solutions\11062021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Utilities.dll
+D:\Live Solutions\11062021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Interfaces.pdb
+D:\Live Solutions\11062021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Models.pdb
+D:\Live Solutions\11062021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Service.pdb
+D:\Live Solutions\11062021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Utilities.pdb
+D:\Live Solutions\11062021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.csprojAssemblyReference.cache
+D:\Live Solutions\11062021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.AssemblyInfoInputs.cache
+D:\Live Solutions\11062021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.AssemblyInfo.cs
+D:\Live Solutions\11062021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.csproj.CopyComplete
+D:\Live Solutions\11062021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.dll
+D:\Live Solutions\11062021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.pdb
+\\10.1.21.30\e\Sumit\15-06-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.BizLayer.deps.json
+\\10.1.21.30\e\Sumit\15-06-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.BizLayer.dll
+\\10.1.21.30\e\Sumit\15-06-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.BizLayer.pdb
+\\10.1.21.30\e\Sumit\15-06-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Interfaces.dll
+\\10.1.21.30\e\Sumit\15-06-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Models.dll
+\\10.1.21.30\e\Sumit\15-06-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Service.dll
+\\10.1.21.30\e\Sumit\15-06-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Utilities.dll
+\\10.1.21.30\e\Sumit\15-06-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Interfaces.pdb
+\\10.1.21.30\e\Sumit\15-06-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Models.pdb
+\\10.1.21.30\e\Sumit\15-06-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Service.pdb
+\\10.1.21.30\e\Sumit\15-06-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Utilities.pdb
+\\10.1.21.30\e\Sumit\15-06-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.csprojAssemblyReference.cache
+\\10.1.21.30\e\Sumit\15-06-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.AssemblyInfoInputs.cache
+\\10.1.21.30\e\Sumit\15-06-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.AssemblyInfo.cs
+\\10.1.21.30\e\Sumit\15-06-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.csproj.CopyComplete
+\\10.1.21.30\e\Sumit\15-06-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.dll
+\\10.1.21.30\e\Sumit\15-06-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.pdb
+E:\Latest solutions\Deployed\10-07-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.BizLayer.deps.json
+E:\Latest solutions\Deployed\10-07-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.BizLayer.dll
+E:\Latest solutions\Deployed\10-07-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.BizLayer.pdb
+E:\Latest solutions\Deployed\10-07-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Interfaces.dll
+E:\Latest solutions\Deployed\10-07-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Models.dll
+E:\Latest solutions\Deployed\10-07-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Service.dll
+E:\Latest solutions\Deployed\10-07-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Utilities.dll
+E:\Latest solutions\Deployed\10-07-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Interfaces.pdb
+E:\Latest solutions\Deployed\10-07-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Models.pdb
+E:\Latest solutions\Deployed\10-07-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Service.pdb
+E:\Latest solutions\Deployed\10-07-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Utilities.pdb
+E:\Latest solutions\Deployed\10-07-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.csproj.AssemblyReference.cache
+E:\Latest solutions\Deployed\10-07-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.AssemblyInfoInputs.cache
+E:\Latest solutions\Deployed\10-07-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.AssemblyInfo.cs
+E:\Latest solutions\Deployed\10-07-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.csproj.CoreCompileInputs.cache
+E:\Latest solutions\Deployed\10-07-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.csproj.CopyComplete
+E:\Latest solutions\Deployed\10-07-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.dll
+E:\Latest solutions\Deployed\10-07-2021\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.pdb
+E:\Latest solutions\working solution\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.BizLayer.deps.json
+E:\Latest solutions\working solution\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.BizLayer.dll
+E:\Latest solutions\working solution\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.BizLayer.pdb
+E:\Latest solutions\working solution\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Interfaces.dll
+E:\Latest solutions\working solution\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Models.dll
+E:\Latest solutions\working solution\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Service.dll
+E:\Latest solutions\working solution\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Utilities.dll
+E:\Latest solutions\working solution\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Interfaces.pdb
+E:\Latest solutions\working solution\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Models.pdb
+E:\Latest solutions\working solution\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Service.pdb
+E:\Latest solutions\working solution\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Utilities.pdb
+E:\Latest solutions\working solution\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.csproj.AssemblyReference.cache
+E:\Latest solutions\working solution\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.AssemblyInfoInputs.cache
+E:\Latest solutions\working solution\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.AssemblyInfo.cs
+E:\Latest solutions\working solution\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.csproj.CoreCompileInputs.cache
+E:\Latest solutions\working solution\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.csproj.CopyComplete
+E:\Latest solutions\working solution\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.dll
+E:\Latest solutions\working solution\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.pdb
+D:\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.BizLayer.deps.json
+D:\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.BizLayer.dll
+D:\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.BizLayer.pdb
+D:\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Interfaces.dll
+D:\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Models.dll
+D:\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Service.dll
+D:\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Utilities.dll
+D:\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Interfaces.pdb
+D:\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Models.pdb
+D:\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Service.pdb
+D:\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Utilities.pdb
+D:\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.csprojAssemblyReference.cache
+D:\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.AssemblyInfoInputs.cache
+D:\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.AssemblyInfo.cs
+D:\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.csproj.CoreCompileInputs.cache
+D:\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.csproj.CopyComplete
+D:\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.dll
+D:\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.pdb
+D:\Live Solutions\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.csproj.CoreCompileInputs.cache
+D:\Live Solution\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.BizLayer.deps.json
+D:\Live Solution\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.BizLayer.dll
+D:\Live Solution\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.BizLayer.pdb
+D:\Live Solution\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Interfaces.dll
+D:\Live Solution\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Models.dll
+D:\Live Solution\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Service.dll
+D:\Live Solution\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Utilities.dll
+D:\Live Solution\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Interfaces.pdb
+D:\Live Solution\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Models.pdb
+D:\Live Solution\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Service.pdb
+D:\Live Solution\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Utilities.pdb
+D:\Live Solution\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.csprojAssemblyReference.cache
+D:\Live Solution\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.AssemblyInfoInputs.cache
+D:\Live Solution\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.AssemblyInfo.cs
+D:\Live Solution\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.csproj.CoreCompileInputs.cache
+D:\Live Solution\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.csproj.CopyComplete
+D:\Live Solution\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.dll
+D:\Live Solution\Thyrocare.Staff.Portal\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.pdb
+D:\Live Solution\Thyrocare.Staff.Portal_11012022\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.BizLayer.deps.json
+D:\Live Solution\Thyrocare.Staff.Portal_11012022\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.BizLayer.dll
+D:\Live Solution\Thyrocare.Staff.Portal_11012022\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.BizLayer.pdb
+D:\Live Solution\Thyrocare.Staff.Portal_11012022\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Interfaces.dll
+D:\Live Solution\Thyrocare.Staff.Portal_11012022\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Models.dll
+D:\Live Solution\Thyrocare.Staff.Portal_11012022\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Service.dll
+D:\Live Solution\Thyrocare.Staff.Portal_11012022\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Utilities.dll
+D:\Live Solution\Thyrocare.Staff.Portal_11012022\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Interfaces.pdb
+D:\Live Solution\Thyrocare.Staff.Portal_11012022\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Models.pdb
+D:\Live Solution\Thyrocare.Staff.Portal_11012022\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Service.pdb
+D:\Live Solution\Thyrocare.Staff.Portal_11012022\Staff.Portal.BizLayer\bin\Release\netcoreapp3.1\Staff.Portal.Utilities.pdb
+D:\Live Solution\Thyrocare.Staff.Portal_11012022\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.csprojAssemblyReference.cache
+D:\Live Solution\Thyrocare.Staff.Portal_11012022\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.AssemblyInfoInputs.cache
+D:\Live Solution\Thyrocare.Staff.Portal_11012022\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.AssemblyInfo.cs
+D:\Live Solution\Thyrocare.Staff.Portal_11012022\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.csproj.CoreCompileInputs.cache
+D:\Live Solution\Thyrocare.Staff.Portal_11012022\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.csproj.CopyComplete
+D:\Live Solution\Thyrocare.Staff.Portal_11012022\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.dll
+D:\Live Solution\Thyrocare.Staff.Portal_11012022\Staff.Portal.BizLayer\obj\Release\netcoreapp3.1\Staff.Portal.BizLayer.pdb

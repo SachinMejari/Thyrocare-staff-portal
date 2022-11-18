@@ -1,0 +1,201 @@
+﻿
+@{
+    ViewData["Title"] = "OrderSummary";
+    Layout = "~/Views/Shared/_ViewTemplate.cshtml";
+}
+<link href="~/5afedf1d1e6ea005384f8f15/v104/css/bootstrap7011.css" rel="stylesheet">
+<link href="~/5afedf1d1e6ea005384f8f15/v104/css/style1339.css" rel="stylesheet">
+<link href="~/5afedf1d1e6ea005384f8f15/v104/css/media6250.css" rel="stylesheet">
+<link href="~/NewAssets/css/style1-main.css" rel="stylesheet">
+<script src="~/5afedf1d1e6ea005384f8f15/v104/js/bootstrap2622.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<link href="~/5afedf1d1e6ea005384f8f15/v104/css/custom5274.min.css" rel="stylesheet">
+<link href="~/5afedf1d1e6ea005384f8f15/v104/css/bootstrap-datetimepicker7902.min.css" rel="stylesheet">
+<script src="~/JScripts/BookingSummary.js"></script>
+<style>
+    .highlight-txt {
+        background: #ff000036;
+        padding: 20px;
+        border-radius: 32px;
+        font-size: 20px;
+    }
+
+    .addre table {
+        width: 100%;
+        background: #ffc9c9;
+        border-radius: 15px;
+    }
+
+    table {
+        margin-bottom: 2em;
+    }
+
+    .addre table tr td:first-child {
+        padding-left: 15px !important;
+    }
+
+    table tbody tr td:first-child {
+        vertical-align: top !important;
+    }
+
+    @@media(max-width:480px) {
+        table {
+            margin-bottom: 1em;
+        }
+
+            table tr td:nth-child(2) {
+                text-align: right;
+                padding-right: 15px;
+            }
+
+            table tr td:first-child {
+                white-space: nowrap;
+            }
+    }
+
+    #QRDiv img {
+        max-width: 30%;
+    }
+</style>
+@if (Model != null)
+{
+
+    <div class="container cart-wrapper parsonal-wrapper checkout-wrapp booking-conf-wrap ">
+        <header class="header-section text-center">
+            <h3 class="check-out-title" style="padding:0px;">Booking Confirmed</h3>
+            <h4>You have successfully booked your test(s) <img src="~/assets/images/icon.png" height="30px"></h4>
+        </header>
+        <br />
+        <div class="">
+            <div class="row">
+                <div class="col-md-5">
+                    <h3 style="background: #c7c7c7;padding: 10px;margin-top: 0;">ORDER DETAILS (@Model.OrderNo)</h3>
+                    <table style="width:100%;">
+                        <tbody>
+                            <tr>
+                                <td><strong>BOOKED BY</strong></td>
+                                <td>@Model.BookedBy</td>
+                            </tr>
+                            <tr>
+                                <td><strong>BOOKED PRODUCT</strong></td>
+                                <td>@Model.Tests</td>
+                            </tr>
+                            <tr>
+                                <td><strong>AMOUNT</strong></td>
+                                <td>@Model.CustomerRate</td>
+                            </tr>
+                            <tr>
+                                <td><strong>MOBILE NO.</strong></td>
+                                <td>@Model.Mobile</td>
+                            </tr>
+                            <tr>
+                                <td><strong>EMAIL ID</strong></td>
+                                <td>@Model.Email</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-md-7 text-center" style="line-height: 200px;" id="QRDiv">
+                    <h4 style="color:#333;">SHOW THIS QR CODE AT COLLECTION CENTER</h4>
+                    @*<img src="~/NewAssets/img/order-qr.PNG" />*@
+                    @Html.Raw(Model.QR)
+                    <p>YOUR ORDER INFORMATION HAS BEEN SENT TO YOUR EMAIL ADDRESS AND PHONE VIA SMS</p>
+                </div>
+            </div>
+        </div>
+        <br /><br /><br />
+        <div class="row">
+            <div class="col-md-12 ">
+                <p class="text-center"><strong>YOU CAN VISIT BELOW NEARBY COLLECTION CENTERS</strong></p>
+            </div>
+        </div>
+        <br /><br /><br />
+        <div class="row addre">
+            @if (Model.CollectionCenters.Count > 0)
+            {
+                foreach (var CenterDetail in Model.CollectionCenters)
+                {
+                    <div class="col-md-6">
+                        <table class=" br" style="width:100%;">
+                            <tbody>
+                                @*<tr>
+                                        <td>City:</td>
+                                        <td>@CenterDetail.City</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Location:</td>
+                                        <td>@CenterDetail.Location</td>
+                                    </tr>*@
+                                <tr>
+                                    <td>Address:</td>
+                                    <td>@CenterDetail.Address</td>
+                                </tr>
+                                <tr>
+                                    <td>Contact:</td>
+                                    <td>@CenterDetail.Mobile</td>
+                                </tr>
+                                <tr>
+                                    <td>Whatsapp:</td>
+                                    <td>@CenterDetail.WhatsNo</td>
+                                </tr>
+                                <tr>
+                                    <td>Direction:</td>
+                                    <td><a href="@CenterDetail.Location" target="_blank">Click Here</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Time:</td>
+                                    <td>@CenterDetail.Available</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                }
+            }
+            @*<div class="col-md-6">
+                    <table class="">
+                        <tbody>
+                            <tr>
+                                <td>City :</td>
+                                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;South Mumbai</td>
+                            </tr>
+                            <tr>
+                                <td>Location :</td>
+                                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Grant Road</td>
+                            </tr>
+                            <tr>
+                                <td>Address :</td>
+                                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;joothica building, Sleateer Road, Mumbai, Maharashtra</td>
+                            </tr>
+                            <tr>
+                                <td>Contact No. :</td>
+                                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8888888888</td>
+                            </tr>
+                            <tr>
+                                <td>Whatsapp At :</td>
+                                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8888888888</td>
+                            </tr>
+                            <tr>
+                                <td>Direction :</td>
+                                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">Click Here</a></td>
+                            </tr>
+                            <tr>
+                                <td>Time :</td>
+                                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All 7 Days</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>*@
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            localStorage.removeItem(LOCALSTORAGE.ITEMS);
+            localStorage.removeItem(LOCALSTORAGE.MstTests);
+            localStorage.removeItem(LOCALSTORAGE.SelectedItems);
+        });
+    </script>
+}
+

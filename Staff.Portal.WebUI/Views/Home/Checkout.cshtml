@@ -1,0 +1,946 @@
+﻿@using Microsoft.AspNetCore.Http
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+
+@{
+    ViewData["Title"] = "Staff :: Checkout";
+    Layout = "~/Views/Shared/_ViewTemplate.cshtml";
+}
+@{
+    string[] array = new string[] { "HVA", "SEEL", "E22", "BTHAL", "CUA", "ELEMENTS", "H3", "H5", "H6", "MA", "BEAP", "HAP" };
+}
+<style type="text/css">
+
+    input[type="checkbox"] {
+        visibility: inherit;
+    }
+
+    .spaced input[type="radio"] {
+        margin-left: 30px;
+        margin-right: 20px;
+    }
+    .blue_ddl {
+        height: 33px!important;
+    }
+</style>
+
+<link href="~/assets/css/bootstrap-datepicker3.css" rel="stylesheet" />
+@*<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>*@
+<script src="~/assets/js/bootstrap-datepicker.min.js"></script>
+<div class="content-page dh-content">
+    <div class="content">
+
+        <!-- Start Content-->
+        <div class="container-fluid">
+
+            <div id="menuOverlay" class="w3-overlay w3-transparent" style="cursor:pointer;z-index:4"></div>
+            <div id="textareacontainer dh-container">
+                <div id="textarea">
+                    <div id="textareawrapperdc-table">
+                        <div class="page-title-box">
+                            <!-- New code starts here -->
+                            <div id="products">
+                                <div class="container mainform">
+                                    <div class="row">
+                                        <div class="col-sm-12 col-md-12 col-lg-8 mob_col_pad">
+                                            <div class="row">
+                                                <div class="col-sm-12 col-md-12 col-md-offset-3 mob_col_pad">
+                                                    <div class="well well-lg" style="padding: 20px 0;">
+                                                        <h3 style="text-align: center;font-weight: 500; padding: 9px 0px 9px;"> Beneficiaries Details</h3>
+
+                                                        <!-- Name input-->
+                                                        <div class="form-group row">
+                                                            <label class="col-md-4 col-lg-4 lbl_font" for="pincode">Pin code <span id="star" style="margin-left:20px"> *</span> </label>
+                                                            <div class="col-md-8 col-lg-8">
+                                                                <input name="txtpincode" type="text" class="form-control" placeholder="Enter Pincode" id="txtPincode" maxlength="6" onkeypress="return isNumberKey(event);" onblur="valid_pin(this); Pinwisecollection(this); return fncPincdSrvicable();">
+                                                                <div class="line-box">
+                                                                    <div class="line"></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <br />
+                                                        <div class="form-group row d-flex" id="Ccid" style="display:none!important">
+                                                            <label class="col-md-4 col-lg-4 lbl_font" id="Labelrad" for="Cltype">Collection Type <span id="star"> *</span> </label>
+                                                            <div class="col-md-8 col-lg-8 d-flex">
+                                                                <input type="radio" id="Home" name="CollectionType" value="HOME" style="margin-left:20px"><span style="margin-left:20px">HOME COLLECTION</span>
+                                                                <input type="radio" id="CollectionType" name="CollectionType" value="COLLECTION CENTER" style="margin-left:20px"><span style="margin-left:20px" id="cchide">COLLECTION CENTER</span>
+                                                            </div>
+                                                        </div>
+                                                        <!-- Email input-->
+                                                        <div class="form-group row chk_out_mt">
+                                                            <label class="col-md-4 col-lg-4 lbl_font" for="no_bene">No of Beneficiaries <span id="star"> *</span></label>
+                                                            <div class="col-md-4 col-lg-4">
+                                                                <select class="ui dropdown form-control blue_ddl" style="width: 100px;" id="BenCount" onchange="AddBen();">
+                                                                    @*<option value="">Select</option*@>
+                                                                    <option value="1">1</option>
+                                                                    <option value="2">2</option>
+                                                                    <option value="3">3</option>
+                                                                    <option value="4">4</option>
+                                                                    <option value="5">5</option>
+                                                                    <option value="6">6</option>
+                                                                    <option value="7">7</option>
+                                                                    <option value="8">8</option>
+                                                                    <option value="9">9</option>
+                                                                    <option value="10">10</option>
+                                                                </select>
+                                                            </div>
+                                                            @*<div class="col-md-4 col-lg-4">
+                                                                    <input id="chksameas" type="checkbox" name="chksameas" onchange="return fnSameUserDtl()">  Same As Registered.*
+                                                                </div>*@
+                                                        </div>
+
+                                                        @*<div class="form-group row chk_out_mt">
+                                                                <label class="col-md-4 col-lg-4 lbl_font" for="bene_name">Beneficiary Name 1 <span id="star"> *</span></label>
+                                                                <div class="col-md-8 col-lg-8">
+                                                                    <div class="d-flex">
+                                                                        <input type="text" class="form-control" placeholder="Full Name" id="">
+                                                                        <input type="text" class="form-control actual_margin" placeholder="Age" id="">
+                                                                        <select class="ui dropdown form-control blue_ddl ddl_monthly actual_margin">
+                                                                            <option value="">Select</option>
+                                                                            <option value="1">Male</option>
+                                                                            <option value="0">Female</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>*@
+
+
+                                                        <div id="dBen">
+
+
+                                                        </div>
+
+                                                        <div class="form-group row chk_out_mt">
+                                                            <label class="col-md-4 col-lg-4 lbl_font" for="Mobile">Mobile Number <span id="star"> *</span></label>
+                                                            <div class="col-md-8 col-lg-8">
+                                                                <input name="txtMobile" value="@HttpContextAccessor.HttpContext.Session.GetString("mobile")" type="text" maxlength="10" id="txtMobile" class="form-control" placeholder="Enter Mobile Number" onkeypress="return isNumberKey(event);" onblur="return valid_mob(this);">
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="form-group row chk_out_mt">
+                                                            <label class="col-md-4 col-lg-4 lbl_font" for="mail">Enter your Email Id <span id="star"> *</span></label>
+                                                            <div class="col-md-8 col-lg-8">
+                                                                <input name="txtemail" type="text" maxlength="50" id="txtEmail" class="form-control" placeholder="Enter Email ID">
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="form-group row chk_out_mt" id="divtxtAddress">
+                                                            <label class="col-md-4 col-lg-4 lbl_font" for="address">Complete Address <span id="star"> *</span></label>
+                                                            <div class="col-md-8 col-lg-8 Address">
+                                                                <textarea name="txt_Address" rows="2" cols="20" maxlength="200" id="txtAddress" class="form-control txt_address_width" placeholder="Enter Address" style="height:50px !important;" onkeypress="return ignoreSplChars(event,this,'Address');"></textarea>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group row chk_out_mt" id="divservice">
+                                                            <label class="col-md-4 col-lg-4 lbl_font" for="ServiceType">
+                                                                Service Type
+                                                            </label>
+                                                            <div class="col-md-4 col-lg-4">
+                                                                <select class="ui dropdown form-control blue_ddl ddl_monthly" id="ServiceType">
+                                                                    <option value="">--Choose one--</option>
+                                                                </select>
+                                                            </div>
+
+                                                            <div class="col-md-4 col-lg-4" id="SameDayReportDiv" style="display:none">
+                                                                <label id="ReportLabel"></label> :<input id="SameDayReport" type="checkbox" name="SameDayReport" value="Y" onchange="ReCalcuatedWithBenCount()">
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="form-group row chk_out_mt">
+                                                            <label class="col-md-4 col-lg-4 lbl_font" for="date">Appointment Date <span id="star"> *</span></label>
+                                                            <div class="col-md-8 col-lg-8">
+                                                                @*<input class="form-control" type="date" id="txtAppdt" name="txtAppdt" onchange="return fncGetAppSlots();">*@
+                                                                <input class="form-control datepicker" id="txtAppdt" name="txtAppdt" data-date-format="dd/mm/yyyy" placeholder="Appointment date" onchange="return fncGetAppSlots();">
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="form-group row chk_out_mt" id="divtimeslot">
+                                                            <label class="col-md-4 col-lg-4 lbl_font" for="slot">
+                                                                Select Time slots  <span id="star"> *</span>
+                                                            </label>
+                                                            <div class="col-md-8 col-lg-8">
+                                                                <select class="ui dropdown form-control blue_ddl ddl_monthly" id="SelectSlot">
+                                                                    <option value="">Select the Slot</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="form-group row chk_out_mt">
+                                                            <label class="col-md-4 col-lg-4 lbl_font" for="reach">
+                                                                Reach me on
+                                                            </label>
+                                                            <div class="col-md-8 col-lg-8" id="divCheckReach">
+                                                                <input id="chkwhatsapp" type="checkbox" name="chk" value="Whatsapp">
+                                                                &nbsp;Whatsapp
+                                                                <input id="chkcall" type="checkbox" name="chk" value="Call">
+                                                                &nbsp;Call
+                                                                <input id="chkemail" type="checkbox" name="chk" value="Email">
+                                                                &nbsp;Email
+                                                                <input id="chksms" type="checkbox" name="chk" value="SMS">
+                                                                &nbsp;SMS
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="form-group row chk_out_mt">
+                                                            <label class="col-md-4 col-lg-4 lbl_font" for="order">
+                                                                Ordered Mode
+                                                            </label>
+                                                            <div class="col-md-8 col-lg-8">
+                                                                <select class="ui dropdown form-control blue_ddl ddl_ordered_mode" id="SelectOrderedMode">
+                                                                    <option value="UNSELECTED">UNSELECTED</option>
+                                                                    <option value="CALL">CALL</option>
+                                                                    <option value="CHAT">CHAT</option>
+                                                                    <option value="EMAIL">EMAIL</option>
+                                                                    <option value="SMS">SMS</option>
+                                                                    @*<option value="EMP-TELEPHONE CALLS">EMP-TELEPHONE CALLS</option>
+                                                                    <option value="EMP-FAILED PAYMENT">EMP-FAILED PAYMENT</option>
+                                                                    <option value="EMP-SMS REQUEST">EMP-SMS REQUEST</option>
+                                                                    <option value="EMP-MAIL REQUEST">EMP-MAIL REQUEST</option>
+                                                                    <option value="EMP-CHAT REQUEST">EMP-CHAT REQUEST</option>
+                                                                    <option value="EMP-WHATSAPP REQUEST">EMP-WHATSAPP REQUEST</option>
+                                                                    <option value="EMP-TSP REQUEST">EMP-TSP REQUEST</option>
+                                                                    <option value="EMP-EMPLOYEE REQUEST">EMP-EMPLOYEE REQUEST</option>
+                                                                    <option value="EMP–UPS WA">EMP–UPS WA</option>
+                                                                    <option value="EMP-TX WA">EMP-TX WA</option>
+                                                                    <option value="CAMPAIGNS">CAMPAIGNS</option>*@
+                                                                </select>
+
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="form-group row chk_out_mt">
+                                                            <label class="col-md-4 col-lg-4 lbl_font" for="source">
+                                                                Source
+                                                            </label>
+                                                            <div class="col-md-8 col-lg-8">
+                                                                <select class="ui dropdown form-control blue_ddl ddl_source" id="SelectSource">
+                                                                    <option value="Unselected">Unselected</option>
+                                                                    <option value="Inbound call">Inbound call</option>
+                                                                    <option value="Diggy Leads(DSA)">Diggy Leads(DSA)</option>
+                                                                    <option value="Public WA">Public WA</option>
+                                                                    <option value="WA remarketing">WA remarketing</option>
+                                                                    <option value="Webchat">Webchat</option>
+                                                                    <option value="SMS">SMS</option>
+                                                                    <option value="Request a Callback">Request a Callback</option>
+                                                                    <option value="ATC drop">ATC drop</option>
+                                                                    <option value="Upselling">Upselling</option>
+                                                                    <option value="Email Support">Email Support</option>
+                                                                    <option value="ULC Code">ULC Code</option>
+                                                                    <option value="Prescription">Prescription</option>
+                                                                    <option value="Public Enquiry">Public Enquiry</option>
+                                                                    <option value="Dormant Booking">Dormant Booking</option>
+                                                                    @*<option value="Google Search">Google Search</option>
+                                                                    <option value="Friends/Colleagues">Friends/Colleagues</option>
+                                                                    <option value="Camp">Camp</option>
+                                                                    <option value="Social Media">Social Media</option>
+                                                                    <option value="Ref. Code">Ref. Code</option>
+                                                                    <option value="Franchisee">Franchisee</option>
+                                                                    <option value="EMailer">EMailer</option>
+                                                                    <option value="Directories/Portal">Directories/Portal</option>
+                                                                    <option value="Newspapers">Newspapers</option>
+                                                                    <option value="Radio">Radio</option>
+                                                                    <option value="Television">Television</option>
+                                                                    <option value="Doctor">Doctor</option>
+                                                                    <option value="Local Lab">Local Lab</option>
+                                                                    <option value="Hospital">Hospital</option>
+                                                                    <option value="Others">Others</option>
+                                                                    <option value="Missed Call">Missed Call</option>
+                                                                    <option value="SMS">SMS</option>
+                                                                    <option value="Mailer">Mailer</option>
+                                                                    <option value="PN">PN</option>
+                                                                    <option value="Push Notification">Push Notification</option>
+                                                                    <option value="WhatsApp Remarketing">WhatsApp Remarketing</option>
+                                                                    <option value="Public WhatsApp">Public WhatsApp</option>
+                                                                    <option value="Mailer">Mailer</option>*@
+                                                                </select>
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group row chk_out_mt">
+                                                            <label class="col-md-4 col-lg-4 lbl_font" for="source">
+                                                                Referred By
+                                                            </label>
+                                                            <div class="col-md-8 col-lg-8">
+                                                                <select class="ui dropdown form-control blue_ddl ddl_source" id="DdlDoctor">
+                                                                    @*<option value=""> --select--</option>*@
+
+                                                                </select>
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group row chk_out_mt">
+                                                            <label class="col-md-4 col-lg-4 lbl_font" for="remark">Remarks </label>
+                                                            <div class="col-md-8 col-lg-8 Address">
+                                                                <textarea name="txt_Remarks" rows="2" cols="20" maxlength="200" id="txtRemarks" class="form-control txt_Remark" placeholder="Enter Remarks" style="height:50px !important;" onkeypress="return ignoreSplChars(event,this,'Address');"></textarea>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="form-group row chk_out_mt">
+                                                            <div class="col-md-12 col-lg-12">
+                                                                <input id="chkmessage" type="checkbox" name="chkmessage" value="Y">
+                                                                I authorize Thyrocare representative to contact me.I understand that this will override the DND status on my mobile number.<span id="star"> *</span>
+                                                            </div>
+                                                        </div>
+
+
+                                                        <div class="form-group row chk_out_mt" id="divLatitude">
+                                                            <label class="col-md-4 col-lg-4 lbl_font" for="Latitude">Latitude <span id="star"> </span></label>
+                                                            <div class="col-md-8 col-lg-8">
+                                                                <input name="txtLatitude" type="text" maxlength="12" id="txtLatitude" class="form-control" placeholder="Enter Latitude" onblur="isValidLatitude(this);" onkeypress='return event.charCode == 46 || event.charCode == 45 || (event.charCode >= 48 && event.charCode <= 57)'>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="form-group row chk_out_mt" id="divLongitude">
+                                                            <label class="col-md-4 col-lg-4 lbl_font" for="Longitude">Longitude <span id="star"> </span></label>
+                                                            <div class="col-md-8 col-lg-8">
+                                                                <input name="txtLongitude" type="text" maxlength="12" id="txtLongitude" class="form-control" placeholder="Enter Longitude" onblur="isValidLongitude(this);" onkeypress='return event.charCode == 46 || event.charCode == 45 || (event.charCode >= 48 && event.charCode <= 57)'>
+                                                            </div>
+                                                        </div>
+
+                                                        @if (HttpContextAccessor.HttpContext.Session.GetString("coupon").StartsWith("CDE"))
+                                                        {
+                                                            <div class="form-group row chk_out_mt">
+                                                                <label class="col-md-4 col-lg-4 lbl_font" for="Doctor">
+                                                                    Client Mobile
+                                                                </label>
+                                                                <div class="col-md-3 col-lg-3">
+                                                                    <input name="txtClientMobile" value="" type="text" maxlength="10" id="txtClientMobile" class="form-control" placeholder="Enter Client Mobile Number" onkeypress="return isNumberKey(event);" onblur="valid_mob(this); BindUserType();">
+                                                                </div>
+
+                                                                <label class="col-md-2 col-lg-2 lbl_font" for="Doctor">
+                                                                    Client Type
+                                                                </label>
+                                                                <div class="col-md-3 col-lg-3">
+                                                                    <select class="ui dropdown form-control blue_ddl ddl_ordered_mode" id="SelectClientType">
+                                                                        <option value=""> --Select Type--</option>
+
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        }
+                                                        else if (Model.Doctors != null && Model.Doctors.Count > 0)
+                                                        {
+
+                                                            <div class="form-group row chk_out_mt">
+                                                                <label class="col-md-4 col-lg-4 lbl_font" for="Doctor">
+                                                                    Select Doctor
+                                                                </label>
+                                                                <div class="col-md-8 col-lg-8">
+                                                                    <select class="ui dropdown form-control blue_ddl ddl_ordered_mode" id="SelectDoctors">
+                                                                        <option value=""> --select Doctor--</option>
+                                                                        @foreach (var doc in Model.Doctors)
+                                                                        {
+                                                                            <option value="@doc.Code">@doc.Name</option>
+                                                                        }
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        }
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-12 col-lg-4 card_details_border_left">
+                                            <div class="text-dark card_details_new">
+                                                <div class="col-sm-12 col-md-12 table-responsive" style="padding:0px; border:none;">
+                                                    <table id="cartdetails" class="table table-bordered table-hover">
+                                                        <tbody>
+                                                            <tr>
+                                                                <th colspan="2" style="text-align: center;background: #5370ce;color:#ffffff;">CART DETAILS</th>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Tests / Profile</td>
+                                                                <td>Rate</td>
+                                                            </tr>
+                                                            @{
+                                                                int TestsRowCount = 0;
+                                                                int TotalAmount = 0;
+                                                            }
+                                                            @foreach (var ItemTest in Model.Cart.lstCart)
+                                                            {
+                                                                string prod = Array.Exists(array, element => element == ItemTest.code) ? ItemTest.name : ItemTest.code;
+
+                                                                TestsRowCount++;
+                                                                TotalAmount += int.Parse(ItemTest.rate);
+
+                                                                <tr id="@prod">
+                                                                    <td id="testdetails">@ItemTest.name (@ItemTest.testcount tests)</td>
+                                                                    <td id="tdrates">Rs.@ItemTest.rate/-</td>
+                                                                </tr>
+
+                                                            }
+                                                            @if (!string.IsNullOrEmpty(HttpContextAccessor.HttpContext.Session.GetString("coupon")))
+                                                            {
+                                                                string coupon = "";
+                                                                if (HttpContextAccessor.HttpContext.Session.GetString("coupon").StartsWith("CDE"))
+                                                                {
+                                                                    coupon = HttpContextAccessor.HttpContext.Session.GetString("coupon").Substring(3, HttpContextAccessor.HttpContext.Session.GetString("coupon").Length - 3);
+                                                                }
+                                                                else
+                                                                {
+                                                                    coupon = HttpContextAccessor.HttpContext.Session.GetString("coupon");
+                                                                }
+                                                                <tr id="couponcodediv">
+                                                                    <td>Coupon Code</td>
+                                                                    <td><span id="Couponcodel">@coupon</span></td>
+                                                                </tr>
+                                                            }
+                                                            @if (!string.IsNullOrEmpty(Model.Cart.chcCharges))
+                                                            {
+                                                                if (Convert.ToInt32(Model.Cart.chcCharges) > 0)
+                                                                {
+                                                                    <tr id="chcDiv">
+                                                                        <td>@Model.Cart.chcLabel </td>
+                                                                        <td>Rs. <span id="totalCHC">@Model.Cart.chcCharges</span>/-</td>
+                                                                    </tr>
+                                                                }
+                                                            }
+                                                            <tr>
+                                                                <td>Total <span id="BeneficiaryCount"></span></td>
+                                                                <td>Rs. <span id="totalamt">@Model.Cart.GrossAmount</span>/-</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                            <div class="text-dark payment_details_new">
+                                                <div class="col-sm-12 col-md-12 table-responsive" style="padding:0px; border:none;">
+                                                    <table class="table table-bordered table-hover">
+                                                        <thead class="rtecenter" id="mys">
+                                                            <tr>
+                                                                <th colspan="2" style="text-align: center;background: #5370ce;color:#ffffff;">PAYMENT DETAILS</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                @*<th>
+                                                                        <label class="radio-inline">
+                                                                            <input id="payonline" type="radio" name="pay" onclick="paycheck1();">
+                                                                            <span class="pl-2">Pay Online</span>
+                                                                        </label>
+                                                                    </th>*@
+
+                                                                <th>
+                                                                    <label class="radio-inline">
+                                                                        @*<input id="paylater" type="radio" name="pay" onclick="paycheck();">*@
+                                                                        <span class="pl-2">Pay Later</span>
+                                                                    </label>
+                                                                </th>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <th colspan="2" class="show_check">
+                                                                    <input id="chkhardcopy" type="checkbox" name="chkhardcopy" onclick="ReCalcuatedWithBenCount();">
+                                                                    <span id="lbl_chk_report_YN" class="pl-2">I want hardcopy of reports (Courier Charges Rs. 75 will be added)</span>
+                                                                </th>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                            <div class="row text-center">
+                                                <div class="col-sm-12 col-md-12 pb-3">
+                                                    <a class="btn report-bttn" style="cursor:pointer;" onclick="setOrderType(); ">Submit</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Cart details starts -->
+                                <div id="error_msg" class="isa_error" style="display: none;">
+                                    <p>
+                                    </p>
+                                </div>
+                                <!-- Cart details end -->
+                            </div>
+                            <!-- New code ends here -->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--container-->
+    </div><!--content--->
+</div>
+@{
+    if (!string.IsNullOrEmpty(ViewBag.ErrorMsg))
+    {
+        <script type="text/javascript">
+               setTimeout(function () {
+                AlertBox('@ViewBag.ErrorMsg');
+              }, 1000);
+        </script>
+    }
+}
+@*<script src="~/assets/JScripts/Checkout.js"></script>*@
+
+<script src="~/assets/JScripts/Cart.js?v1"></script>
+<script src="~/assets/JScripts/Datefunctions.js?v1"></script>
+<script src="~/assets/JScripts/Checkout.js?v14"></script>
+<script>
+
+
+
+    $('input[type=radio][name=CollectionType]').change(function () {
+        if (this.value == 'COLLECTION CENTER') {
+            $("#chcDiv").hide('fade out');
+            //ReCalcuatedWithBenCount();
+            cartCall();
+            $("#divtimeslot").hide();
+            $("#divtimeslot").val('');
+            $("#divservice").hide();
+            $("#divservice").val('');
+            $("#divLatitude").hide();
+            $("#divLatitude").val('');
+            $("#divLongitude").hide();
+            $("#divLongitude").val('');
+            $("#chkhardcopy").hide();
+            $("#chkhardcopy").val('');
+            $("#lbl_chk_report_YN").hide();
+            $("#lbl_chk_report_YN").val('');
+            $("#divtxtAddress").hide();
+            $("#divtxtAddress").val('');
+
+        }
+        else if (this.value == 'HOME') {
+            $("#chcDiv").show('fade in');
+            //ReCalcuatedWithBenCount();
+            cartCall();
+            $("#divtimeslot").show();
+            $("#divtimeslot").val('');
+            $("#divservice").show();
+            $("#divLatitude").show();
+            $("#divLatitude").val('');
+            $("#divLongitude").show();
+            $("#divLongitude").val('');
+            $("#chkhardcopy").show();
+            $("#lbl_chk_report_YN").show();
+            $("#divtxtAddress").show();
+            $("#divtxtAddress").val('');
+        }
+        else {
+            $("#chcDiv").show('fade in');
+            ReCalcuatedWithBenCount();
+            $("#divtimeslot").show();
+            $("#divtimeslot").val('');
+            $("#divservice").show();
+            $("#divLatitude").show();
+            $("#divLatitude").val('');
+            $("#divLongitude").show();
+            $("#divLongitude").val('');
+            $("#chkhardcopy").show();
+            $("#lbl_chk_report_YN").show();
+            $("#divtxtAddress").show();
+            $("#divtxtAddress").val('');
+        }
+    });
+
+</script>
+<script>
+    radiobtn = document.getElementById("Home");
+    radiobtn.checked = true;
+</script>
+<script>
+    var days = '+' +@Model.Cart.allowedBookingsDays+'d';
+        //$("#ApptDate").datepicker({
+        //    dateFormate: "dd-mm-yy",
+        //    changeMonth: true,
+        //    changeYear: true,
+        //    maxDate: days,
+        //    minDate: 0
+        //});
+
+    $('.datepicker').datepicker({
+        format: 'dd-mm-yyyy',
+        startDate: 'd',
+        endDate: days,
+        autoclose: true,
+    });
+
+    $("textarea").on("keypress", function (e) {
+        var startPos = e.currentTarget.selectionStart;
+        $(this).val($(this).val().replace(/\s+/g, ' '));
+            if (e.which === 32 && startPos == 0)
+                e.preventDefault();
+    });
+
+    function RedirectToBookingSummary() {
+        setTimeout(function () {
+            window.location.href = "@Url.Action("Booking", "Home")";
+        }, 500);
+    }
+    var BenCount = 1;
+    var HardCopyAmt = 0;
+    var hardcopy = "No";
+    const ConstHartCopyRate = @Model.Cart.HardCopyRate;
+
+    var benid = emptyString;
+    var TotalAmt = @Model.Cart.GrossAmount;
+    var PayAmt = @Model.Cart.PayableAmout;
+    var GrossAmount = ("@Model.Cart.Credit"=="Y")?@Model.Cart.COLLECTCHARGES : @Model.Cart.GrossAmount;
+    var PayableAmout = @Model.Cart.PayableAmout;
+    var DiscountAmount = @Model.Cart.Discount;
+    var Credit = "@Model.Cart.Credit";
+    var EmergencyReportAmt = 0;
+    var SpecialServiceAmt = 0;
+     var CHCAmount = @Model.Cart.chcCharges;
+
+    function ReCalcuatedWithBenCount() {
+       var Cnt = $("#BenCount").val();
+       if (Cnt !== "") {
+           BenCount = parseInt(Cnt);
+       }
+
+       if ($("#chkhardcopy").is(":checked")) {
+           HardCopyAmt = ConstHartCopyRate;
+           hardcopy = "Yes";
+       }
+       else {
+           HardCopyAmt = 0;
+           hardcopy = "No";
+       }
+       CreateHardcopySession(hardcopy);
+
+       //if ($("#SameDayReport").is(":checked")) {
+       //    SpecialServiceAmt = EmergencyReportAmt;
+       //}
+       //else {
+       //    SpecialServiceAmt = 0;
+       //}
+
+       var Msg = "( For ";
+       if (BenCount > 0) {
+           Msg = Msg + BenCount + " ben )";
+       }
+       else {
+           Msg = Msg + BenCount + " ben )";
+       }
+
+       $("#BeneficiaryCount").text(Msg);
+
+        //cartCall();
+
+       if (Credit === "Y") {
+           TotalAmt = (GrossAmount + ((BenCount - 1) * 50));
+           $("#totalamt").text(TotalAmt + HardCopyAmt+SpecialServiceAmt);
+       }
+       else {
+           var CollectionType = $('input[name="CollectionType"]:checked').val();
+
+           if (localStorage.getItem(LOCALSTORAGE.SelectedItems).indexOf("P681") > -1) {
+               //TotalAmt = (GrossAmount * BenCount);
+               TotalAmt = ((GrossAmount) * BenCount);
+           }
+           @*else if (CollectionType == "COLLECTION CENTER") {
+                 TotalAmt = ((GrossAmount-@Model.Cart.chcCharges) * BenCount);
+               //TotalAmt = GrossAmount;
+           }*@
+           else {
+               TotalAmt = TotalAmt;//(GrossAmount * BenCount) + ((BenCount - 1) * 100 + CHCAmount);
+           }
+
+
+           $("#totalamt").text(TotalAmt + HardCopyAmt+SpecialServiceAmt);
+       }
+       var NewCHCAmt = CHCAmount;
+       if (NewCHCAmt != undefined && NewCHCAmt != undefined && NewCHCAmt != null) {
+           //NewCHCAmt = ((BenCount - 1) * 100 + CHCAmount);
+           $("#totalCHC").text(NewCHCAmt);
+        }
+   }
+
+    function cartCall() {
+        var CollectionType = $('input[name="CollectionType"]:checked').val();
+        if (localStorage.getItem(LOCALSTORAGE.SelectedItems).indexOf("P681") > -1) {
+            ReCalcuatedWithBenCount();
+        }
+        else {
+            var input = {
+                benCount: $("#BenCount").val(),
+                collectionType: CollectionType,
+                email: $('#txtEmail').val().trim()
+            };
+            $.ajax({
+                type: DELETE,
+                url: "/api/ChangeBenCount",
+                contentType: AjaxCallContentType,
+                data: JSON.stringify(input),
+                dataType: AjaxCallJson,
+                async: true,
+                cache: false,
+                success: function (Response) {
+                    console.log("/api/ChangeBenCount : Success");
+                    TotalAmt = parseInt(Response.grossAmount);
+                    PayAmt = parseInt(Response.payableAmout);
+                    GrossAmount = parseInt(Response.grossAmount);
+                    PayableAmout = parseInt(Response.payableAmout);
+                    DiscountAmount = parseInt(Response.discount);
+                    CHCAmount = parseInt(Response.chcCharges);
+                    ReCalcuatedWithBenCount();
+                },
+                error: function () {
+                    console.log("/api/DeleteCart : Failed");
+                    return false;
+                }
+            });
+        }
+    }
+    function fncPincdSrvicable() {
+        var InPincode = $("#txtPincode").val();
+        $("#txtAppdt").val('');
+        $('#SelectSlot').empty();
+        $('#SelectSlot').append("<option value=''>Select the Slot</option>");
+
+        var srvPin = /Yes!/;
+        var box = $(".ol-pay a");
+        var input = {
+            pincode: InPincode,
+            apiKey: emptyString
+        };
+
+        if (InPincode !== emptyString && InPincode !== "pincode") {
+            if (localStorage.getItem(LOCALSTORAGE.SelectedItems).indexOf("P681") > -1) {
+                $.ajax({
+                    type: POST,
+                    url: "/api/CovidCart",
+                    contentType: AjaxCallContentType,
+                    data: JSON.stringify(input),
+                    dataType: AjaxCallJson,
+                    async: true,
+                    cache: false,
+                    success: function (Response) {
+                        if (Response.respId == RES00001 && (Response.rate != null || Response.rate != "")) {
+
+                            if (Credit !== "Y") {
+                                $("#chcDiv").hide('fade out');
+                                GrossAmount = Response.rate;
+                                TotalAmt = (GrossAmount * BenCount)
+                                $("#totalamt").text(TotalAmt + HardCopyAmt);
+                                $("#CollectionType").hide();
+                                $("#cchide").css("display", "none");
+                            }
+                        }
+                        else {
+                            AlertBox("This pincode is not serviceable for covid-19");
+                            $("#txtPincode").val('');
+                        }
+                    },
+                    error: function () {
+                        return false;
+                    }
+                });
+            }
+            else {
+
+                $.ajax({
+                    type: POST,
+                    url: "/api/CheckPinServiceable",
+                    contentType: AjaxCallContentType,
+                    data: JSON.stringify(input),
+                    dataType: AjaxCallJson,
+                    async: true,
+                    cache: false,
+                    success: function (Response) {
+                        AlertBox('' + Response.lastMonthsOrders);
+                        //console.log(Response);
+                       // BindDoctorRef(Pincode)
+                        if (Response.emergencyService == 1) {
+                            $("#SameDayReportDiv").show();
+                        }
+                        else {
+                            $("#SameDayReportDiv").hide();
+                            $("#SameDayReport").prop("checked", false);
+                        }
+                        srvPin.test(Response.lastMonthsOrders) ? $('#txtAppdt').prop('disabled', false) : $('#txtAppdt').prop('disabled', true);
+                    },
+                    error: function () {
+                        return false;
+                    }
+                });
+            }
+            BindDoctorDetails(input);
+        }
+
+    }
+
+
+    function Pinwisecollection() {
+        var InPincode = $("#txtPincode").val();
+        var srvPin = /Yes!/;
+        var box = $(".ol-pay a");
+        var input = {
+            pincode: InPincode,
+            apiKey: emptyString
+        };
+
+        if (InPincode !== emptyString && InPincode !== "pincode") {
+                $.ajax({
+                    type: POST,
+                    url: "/api/CollectionPincode",
+                    contentType: AjaxCallContentType,
+                    data: JSON.stringify(input),
+                    dataType: AjaxCallJson,
+                    async: true,
+                    cache: false,
+                    success: function (Response) {
+                       if (Response.respId == "RES00001" && (Response.flag == true)) {
+                           $("#Ccid").css("display", "block");
+                            $("#CollectionType").css("display", "block");
+                           $("#cchide").css("display", "block");
+                            $("#divtxtAddress").val('');
+
+                       }
+                       else if (Response.respId == "RES01001" && (Response.flag == false))
+                       {
+                           document.getElementById("Home").checked = true;
+                           $("#Labelrad").css("display", "block");
+                           $("#Home").css("display", "block");
+                           $("#homid").css("display", "block");
+                           $("#CollectionType").css("display", "none");
+                           $("#cchide").css("display", "none");
+                           $("#Ccid").css("display", "block");
+                           $("#Home").attr('checked', 'checked');
+                           $("#divtimeslot").show();
+                           $("#divtimeslot").val('');
+                           $("#divservice").show();
+                           $("#divLatitude").show();
+                           $("#divLatitude").val('');
+                           $("#divLongitude").show();
+                           $("#divLongitude").val('');
+                           $("#chkhardcopy").show();
+                           $("#lbl_chk_report_YN").show();
+                           $("#divtxtAddress").show();
+                           $("#divtxtAddress").val('');
+                       }
+                    },
+                    error: function () {
+                        return false;
+                    }
+                });
+        }
+    }
+
+    //function funcHardCopy() {
+    //    if ($("#chkhardcopy").is(":checked")) {
+    //        if (HardCopyAmt == 0) {
+    //            HardCopyAmt = ConstHartCopyRate;
+    //            TotalAmt = (HardCopyAmt + TotalAmt);
+    //        }
+    //        hardcopy = "Yes";
+    //    } else {
+    //        if (HardCopyAmt == ConstHartCopyRate) {
+    //            TotalAmt = (TotalAmt - ConstHartCopyRate);
+    //        }
+    //        HardCopyAmt = 0;
+    //        hardcopy = "No";
+    //    }
+    //    CreateHardcopySession(hardcopy);
+    //    changePayableAmout(TotalAmt);
+    //}
+
+    //function funcSameDayReport() {
+
+    //    if ($("#SameDayReport").is(":checked")) {
+    //        TotalAmt = (EmergencyReportAmt + TotalAmt);
+    //    }
+    //    else {
+    //        TotalAmt = (TotalAmt - EmergencyReportAmt);
+    //    }
+    //    changePayableAmout(TotalAmt);
+    //}
+function BindDoctorDetails(InputData) {
+    $.ajax({
+        type: "POST",
+        url: "/api/BindDoctor",
+        contentType: "application/json; charset=utf-8",
+        data: JSON.stringify(InputData),
+        dataType: "json",
+        async: true,
+        cache: false,
+        success: function (Response) {
+            console.log(Response);
+            var htmlDoc = "";
+            htmlDoc = htmlDoc + "<option value=''>Select Doctor</option>";
+            if (Response.resId == "RES0000") {
+                if (Response.doctorsList != null) {
+                    if (Response.doctorsList.length > 0) {
+
+                        for (i = 0; i < Response.doctorsList.length; i++) {
+                            htmlDoc = htmlDoc + "<option value='" + Response.doctorsList[i].id + "'>" + Response.doctorsList[i].name + "</option>";
+                        }
+                        //$("#DoctorDiv").show('fade in');
+                        //$("#ReferredByTAB").show('fade in');
+                        $("#DdlDoctor").html(htmlDoc);
+                    } else {
+                        //$("#DoctorDiv").hide('fade out');
+                        //$("#DdlDoctor").html('');
+                        //$("#ReferredByTAB").hide('fade out');
+                        $("#DdlDoctor").html(htmlDoc);
+                    }
+                }
+            }
+        },
+        error: function (xhr, ajaxOptions, thrownError) {
+            console.log(thrownError);
+            return false;
+        }
+    });
+}
+    function SpecialServiceTypeBind() {
+        $.ajax({
+            type: GET,
+            url: "/api/SpecialServiceType",
+            contentType: AjaxCallContentType,
+            dataType: AjaxCallJson,
+            async: true,
+            cache: false,
+            success: function (Response) {
+                console.log(Response);
+                var trHTML = '';
+                var optionHTML = '';
+                if (Response.respId == "RES00001") {
+                    $.each(Response.serviceType, function (i, item) {
+                        trHTML += '<option value=' + item.id + '|' + item.rate + '>' + item.serviceName + '</option>';
+                    });
+                    $('#ServiceType').append(trHTML);
+                    if (Response.reportServices != null && Response.reportServices.length>0) {
+                        $("#ReportLabel").text(Response.reportServices[0].serviceName);
+                        $("#SameDayReport").val(Response.reportServices[0].id + "|" + Response.reportServices[0].rate);
+                        //EmergencyReportAmt = parseInt(Response.reportServices[0].rate);
+                    }
+                    //$.each(Response.techniciansSafety, function (i, item) {
+                    //    optionHTML += '<option value=' + item.id + '|' + item.rate + '>' + item.serviceName + '</option>';
+                    //});
+                    //$('#TechniciansSafety').append(optionHTML);
+
+                }
+            },
+            error: function () {
+                return false;
+            }
+        });
+    }
+function CHeckPSABooking() {
+    var BenCount = $("#BenCount").val();
+        BenCount = parseInt(BenCount);
+    var Product = localStorage.getItem("SelectedItems");
+    if (Product.includes("PSA") || Product.includes("TUMOUR PANEL (MALE)")) {
+        for (i = 1; i <= parseInt(BenCount); i++) {
+            var Gender = $("#Gender" + i).val();
+            if (Gender == "F") {
+                AlertBox("Selected test is not Allowed for Female Booking");
+                $("#Gender" + i).val('');
+                return false;
+            }
+        }
+    }
+}
+
+
+
+ function changePayableAmout(PayAmt) {
+  $("#totalamt").text(PayAmt);
+    }
+
+
+</script>

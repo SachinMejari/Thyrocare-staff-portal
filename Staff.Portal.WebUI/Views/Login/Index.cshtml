@@ -1,0 +1,63 @@
+﻿@{
+    ViewData["Title"] = "Staff :: Login-In";
+    Layout = "~/Views/Shared/_ViewTemplate.cshtml";
+}
+<style>
+    body {
+        font-size: 14px;
+    }
+
+    .form-control {
+        height: 35px;
+        text-align: center;
+    }
+
+    .footer {
+        position: fixed;
+    }
+
+    .b-login {
+        width: 100%;
+    }
+
+    .login-form {
+        box-shadow: 0 1px 3px 1px rgba(0,0,0,0.12), 0 1px 3px 1px rgba(0,0,0,0.24);
+        padding: 25px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+</style>
+
+<div class="container">
+    <div class="col-md-6 col-lg-4 offset-md-3 offset-lg-4" style="padding-top:10%;">
+        <div class="img-logo text-center">
+            @*<img src="assets/images/Thyrocare-Logo.png" />*@
+            <img src="assets/images/Thyrocare_new.png" />
+        </div>
+        <div class="login-form">
+            <form>
+                <input type="text" placeholder="Enter Username" name="uname" class="form-control mb-2 l-form" required>
+                <input type="password" placeholder="Enter Password" name="password" id="password" class="form-control mb-2 l-form" required>
+                <button type="button" class="btn btn-primary mb-2 b-login l-form" onclick="loginHandler(event);" >Login</button>
+                @*<div class="col-lg-12 text-center">
+                    <label for="forgot" class="l-form"><a href="#" class="f-text">Forgot Password?</a></label>
+                </div>*@
+            </form>
+        </div>
+    </div>
+</div>
+
+<script src="~/assets/JScripts/login.js?v1"></script>
+<script>
+    
+    function RedirectToHome() {
+        setTimeout(function () {
+            window.location.href = "@Url.Action("TestMenu", "Home")";
+        }, 1);
+    }
+
+    $(document).ready(function () {
+        localStorage.clear();
+    });
+</script>
+

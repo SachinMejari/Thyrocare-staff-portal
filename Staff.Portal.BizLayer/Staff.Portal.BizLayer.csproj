@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Staff.Portal.Interfaces\Staff.Portal.Interfaces.csproj" />
+    <ProjectReference Include="..\Staff.Portal.Models\Staff.Portal.Models.csproj" />
+    <ProjectReference Include="..\Staff.Portal.Service\Staff.Portal.Service.csproj" />
+  </ItemGroup>
+
+</Project>

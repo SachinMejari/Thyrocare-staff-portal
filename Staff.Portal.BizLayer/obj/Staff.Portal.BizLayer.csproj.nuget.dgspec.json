@@ -1,0 +1,327 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\e3618\\Documents\\GitHub\\Thyrocare-staff-portal\\Staff.Portal.BizLayer\\Staff.Portal.BizLayer.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\e3618\\Documents\\GitHub\\Thyrocare-staff-portal\\Staff.Portal.BizLayer\\Staff.Portal.BizLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\e3618\\Documents\\GitHub\\Thyrocare-staff-portal\\Staff.Portal.BizLayer\\Staff.Portal.BizLayer.csproj",
+        "projectName": "Staff.Portal.BizLayer",
+        "projectPath": "C:\\Users\\e3618\\Documents\\GitHub\\Thyrocare-staff-portal\\Staff.Portal.BizLayer\\Staff.Portal.BizLayer.csproj",
+        "packagesPath": "C:\\Users\\e3618\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\e3618\\Documents\\GitHub\\Thyrocare-staff-portal\\Staff.Portal.BizLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\e3618\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\e3618\\Documents\\GitHub\\Thyrocare-staff-portal\\Staff.Portal.Interfaces\\Staff.Portal.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\e3618\\Documents\\GitHub\\Thyrocare-staff-portal\\Staff.Portal.Interfaces\\Staff.Portal.Interfaces.csproj"
+              },
+              "C:\\Users\\e3618\\Documents\\GitHub\\Thyrocare-staff-portal\\Staff.Portal.Models\\Staff.Portal.Models.csproj": {
+                "projectPath": "C:\\Users\\e3618\\Documents\\GitHub\\Thyrocare-staff-portal\\Staff.Portal.Models\\Staff.Portal.Models.csproj"
+              },
+              "C:\\Users\\e3618\\Documents\\GitHub\\Thyrocare-staff-portal\\Staff.Portal.Service\\Staff.Portal.Service.csproj": {
+                "projectPath": "C:\\Users\\e3618\\Documents\\GitHub\\Thyrocare-staff-portal\\Staff.Portal.Service\\Staff.Portal.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.120\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\e3618\\Documents\\GitHub\\Thyrocare-staff-portal\\Staff.Portal.Interfaces\\Staff.Portal.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\e3618\\Documents\\GitHub\\Thyrocare-staff-portal\\Staff.Portal.Interfaces\\Staff.Portal.Interfaces.csproj",
+        "projectName": "Staff.Portal.Interfaces",
+        "projectPath": "C:\\Users\\e3618\\Documents\\GitHub\\Thyrocare-staff-portal\\Staff.Portal.Interfaces\\Staff.Portal.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\e3618\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\e3618\\Documents\\GitHub\\Thyrocare-staff-portal\\Staff.Portal.Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\e3618\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\e3618\\Documents\\GitHub\\Thyrocare-staff-portal\\Staff.Portal.Models\\Staff.Portal.Models.csproj": {
+                "projectPath": "C:\\Users\\e3618\\Documents\\GitHub\\Thyrocare-staff-portal\\Staff.Portal.Models\\Staff.Portal.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.120\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\e3618\\Documents\\GitHub\\Thyrocare-staff-portal\\Staff.Portal.Models\\Staff.Portal.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\e3618\\Documents\\GitHub\\Thyrocare-staff-portal\\Staff.Portal.Models\\Staff.Portal.Models.csproj",
+        "projectName": "Staff.Portal.Models",
+        "projectPath": "C:\\Users\\e3618\\Documents\\GitHub\\Thyrocare-staff-portal\\Staff.Portal.Models\\Staff.Portal.Models.csproj",
+        "packagesPath": "C:\\Users\\e3618\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\e3618\\Documents\\GitHub\\Thyrocare-staff-portal\\Staff.Portal.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\e3618\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.120\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\e3618\\Documents\\GitHub\\Thyrocare-staff-portal\\Staff.Portal.Service\\Staff.Portal.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\e3618\\Documents\\GitHub\\Thyrocare-staff-portal\\Staff.Portal.Service\\Staff.Portal.Service.csproj",
+        "projectName": "Staff.Portal.Service",
+        "projectPath": "C:\\Users\\e3618\\Documents\\GitHub\\Thyrocare-staff-portal\\Staff.Portal.Service\\Staff.Portal.Service.csproj",
+        "packagesPath": "C:\\Users\\e3618\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\e3618\\Documents\\GitHub\\Thyrocare-staff-portal\\Staff.Portal.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\e3618\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\e3618\\Documents\\GitHub\\Thyrocare-staff-portal\\Staff.Portal.Interfaces\\Staff.Portal.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\e3618\\Documents\\GitHub\\Thyrocare-staff-portal\\Staff.Portal.Interfaces\\Staff.Portal.Interfaces.csproj"
+              },
+              "C:\\Users\\e3618\\Documents\\GitHub\\Thyrocare-staff-portal\\Staff.Portal.Models\\Staff.Portal.Models.csproj": {
+                "projectPath": "C:\\Users\\e3618\\Documents\\GitHub\\Thyrocare-staff-portal\\Staff.Portal.Models\\Staff.Portal.Models.csproj"
+              },
+              "C:\\Users\\e3618\\Documents\\GitHub\\Thyrocare-staff-portal\\Staff.Portal.Utilities\\Staff.Portal.Utilities.csproj": {
+                "projectPath": "C:\\Users\\e3618\\Documents\\GitHub\\Thyrocare-staff-portal\\Staff.Portal.Utilities\\Staff.Portal.Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.120\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\e3618\\Documents\\GitHub\\Thyrocare-staff-portal\\Staff.Portal.Utilities\\Staff.Portal.Utilities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\e3618\\Documents\\GitHub\\Thyrocare-staff-portal\\Staff.Portal.Utilities\\Staff.Portal.Utilities.csproj",
+        "projectName": "Staff.Portal.Utilities",
+        "projectPath": "C:\\Users\\e3618\\Documents\\GitHub\\Thyrocare-staff-portal\\Staff.Portal.Utilities\\Staff.Portal.Utilities.csproj",
+        "packagesPath": "C:\\Users\\e3618\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\e3618\\Documents\\GitHub\\Thyrocare-staff-portal\\Staff.Portal.Utilities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\e3618\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\e3618\\Documents\\GitHub\\Thyrocare-staff-portal\\Staff.Portal.Models\\Staff.Portal.Models.csproj": {
+                "projectPath": "C:\\Users\\e3618\\Documents\\GitHub\\Thyrocare-staff-portal\\Staff.Portal.Models\\Staff.Portal.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.120\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

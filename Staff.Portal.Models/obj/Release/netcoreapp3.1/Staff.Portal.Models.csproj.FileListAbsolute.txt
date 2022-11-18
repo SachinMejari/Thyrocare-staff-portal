@@ -1,0 +1,94 @@
+E:\Namrata\Thyrocare.Staff.Portal\Staff.Portal.Models\bin\Release\netcoreapp3.1\Staff.Portal.Models.deps.json
+E:\Namrata\Thyrocare.Staff.Portal\Staff.Portal.Models\bin\Release\netcoreapp3.1\Staff.Portal.Models.dll
+E:\Namrata\Thyrocare.Staff.Portal\Staff.Portal.Models\bin\Release\netcoreapp3.1\Staff.Portal.Models.pdb
+E:\Namrata\Thyrocare.Staff.Portal\Staff.Portal.Models\obj\Release\netcoreapp3.1\Staff.Portal.Models.csprojAssemblyReference.cache
+E:\Namrata\Thyrocare.Staff.Portal\Staff.Portal.Models\obj\Release\netcoreapp3.1\Staff.Portal.Models.AssemblyInfoInputs.cache
+E:\Namrata\Thyrocare.Staff.Portal\Staff.Portal.Models\obj\Release\netcoreapp3.1\Staff.Portal.Models.AssemblyInfo.cs
+E:\Namrata\Thyrocare.Staff.Portal\Staff.Portal.Models\obj\Release\netcoreapp3.1\Staff.Portal.Models.dll
+E:\Namrata\Thyrocare.Staff.Portal\Staff.Portal.Models\obj\Release\netcoreapp3.1\Staff.Portal.Models.pdb
+D:\Live Solutions\Thyrocare.Staff.Portal\Staff.Portal.Models\bin\Release\netcoreapp3.1\Staff.Portal.Models.deps.json
+D:\Live Solutions\Thyrocare.Staff.Portal\Staff.Portal.Models\bin\Release\netcoreapp3.1\Staff.Portal.Models.dll
+D:\Live Solutions\Thyrocare.Staff.Portal\Staff.Portal.Models\bin\Release\netcoreapp3.1\Staff.Portal.Models.pdb
+D:\Live Solutions\Thyrocare.Staff.Portal\Staff.Portal.Models\obj\Release\netcoreapp3.1\Staff.Portal.Models.csprojAssemblyReference.cache
+D:\Live Solutions\Thyrocare.Staff.Portal\Staff.Portal.Models\obj\Release\netcoreapp3.1\Staff.Portal.Models.AssemblyInfoInputs.cache
+D:\Live Solutions\Thyrocare.Staff.Portal\Staff.Portal.Models\obj\Release\netcoreapp3.1\Staff.Portal.Models.AssemblyInfo.cs
+D:\Live Solutions\Thyrocare.Staff.Portal\Staff.Portal.Models\obj\Release\netcoreapp3.1\Staff.Portal.Models.dll
+D:\Live Solutions\Thyrocare.Staff.Portal\Staff.Portal.Models\obj\Release\netcoreapp3.1\Staff.Portal.Models.pdb
+\\CPLD3DTP0021\Team Sharing\KALPESH\28-05-2021\Thyrocare.Staff.Portal\Staff.Portal.Models\bin\Release\netcoreapp3.1\Staff.Portal.Models.deps.json
+\\CPLD3DTP0021\Team Sharing\KALPESH\28-05-2021\Thyrocare.Staff.Portal\Staff.Portal.Models\bin\Release\netcoreapp3.1\Staff.Portal.Models.dll
+\\CPLD3DTP0021\Team Sharing\KALPESH\28-05-2021\Thyrocare.Staff.Portal\Staff.Portal.Models\bin\Release\netcoreapp3.1\Staff.Portal.Models.pdb
+\\CPLD3DTP0021\Team Sharing\KALPESH\28-05-2021\Thyrocare.Staff.Portal\Staff.Portal.Models\obj\Release\netcoreapp3.1\Staff.Portal.Models.AssemblyInfoInputs.cache
+\\CPLD3DTP0021\Team Sharing\KALPESH\28-05-2021\Thyrocare.Staff.Portal\Staff.Portal.Models\obj\Release\netcoreapp3.1\Staff.Portal.Models.AssemblyInfo.cs
+\\CPLD3DTP0021\Team Sharing\KALPESH\28-05-2021\Thyrocare.Staff.Portal\Staff.Portal.Models\obj\Release\netcoreapp3.1\Staff.Portal.Models.dll
+\\CPLD3DTP0021\Team Sharing\KALPESH\28-05-2021\Thyrocare.Staff.Portal\Staff.Portal.Models\obj\Release\netcoreapp3.1\Staff.Portal.Models.pdb
+\\CPLD3DTP0021\Team Sharing\KALPESH\28-05-2021\Thyrocare.Staff.Portal\Staff.Portal.Models\obj\Release\netcoreapp3.1\Staff.Portal.Models.csprojAssemblyReference.cache
+E:\Latest solutions\01-06-2021\Thyrocare.Staff.Portal\Staff.Portal.Models\bin\Release\netcoreapp3.1\Staff.Portal.Models.deps.json
+E:\Latest solutions\01-06-2021\Thyrocare.Staff.Portal\Staff.Portal.Models\bin\Release\netcoreapp3.1\Staff.Portal.Models.dll
+E:\Latest solutions\01-06-2021\Thyrocare.Staff.Portal\Staff.Portal.Models\bin\Release\netcoreapp3.1\Staff.Portal.Models.pdb
+E:\Latest solutions\01-06-2021\Thyrocare.Staff.Portal\Staff.Portal.Models\obj\Release\netcoreapp3.1\Staff.Portal.Models.csprojAssemblyReference.cache
+E:\Latest solutions\01-06-2021\Thyrocare.Staff.Portal\Staff.Portal.Models\obj\Release\netcoreapp3.1\Staff.Portal.Models.AssemblyInfoInputs.cache
+E:\Latest solutions\01-06-2021\Thyrocare.Staff.Portal\Staff.Portal.Models\obj\Release\netcoreapp3.1\Staff.Portal.Models.AssemblyInfo.cs
+E:\Latest solutions\01-06-2021\Thyrocare.Staff.Portal\Staff.Portal.Models\obj\Release\netcoreapp3.1\Staff.Portal.Models.dll
+E:\Latest solutions\01-06-2021\Thyrocare.Staff.Portal\Staff.Portal.Models\obj\Release\netcoreapp3.1\Staff.Portal.Models.pdb
+D:\Live Solutions\11062021\Thyrocare.Staff.Portal\Staff.Portal.Models\bin\Release\netcoreapp3.1\Staff.Portal.Models.deps.json
+D:\Live Solutions\11062021\Thyrocare.Staff.Portal\Staff.Portal.Models\bin\Release\netcoreapp3.1\Staff.Portal.Models.dll
+D:\Live Solutions\11062021\Thyrocare.Staff.Portal\Staff.Portal.Models\bin\Release\netcoreapp3.1\Staff.Portal.Models.pdb
+D:\Live Solutions\11062021\Thyrocare.Staff.Portal\Staff.Portal.Models\obj\Release\netcoreapp3.1\Staff.Portal.Models.csprojAssemblyReference.cache
+D:\Live Solutions\11062021\Thyrocare.Staff.Portal\Staff.Portal.Models\obj\Release\netcoreapp3.1\Staff.Portal.Models.AssemblyInfoInputs.cache
+D:\Live Solutions\11062021\Thyrocare.Staff.Portal\Staff.Portal.Models\obj\Release\netcoreapp3.1\Staff.Portal.Models.AssemblyInfo.cs
+D:\Live Solutions\11062021\Thyrocare.Staff.Portal\Staff.Portal.Models\obj\Release\netcoreapp3.1\Staff.Portal.Models.dll
+D:\Live Solutions\11062021\Thyrocare.Staff.Portal\Staff.Portal.Models\obj\Release\netcoreapp3.1\Staff.Portal.Models.pdb
+\\10.1.21.30\e\Sumit\15-06-2021\Thyrocare.Staff.Portal\Staff.Portal.Models\bin\Release\netcoreapp3.1\Staff.Portal.Models.deps.json
+\\10.1.21.30\e\Sumit\15-06-2021\Thyrocare.Staff.Portal\Staff.Portal.Models\bin\Release\netcoreapp3.1\Staff.Portal.Models.dll
+\\10.1.21.30\e\Sumit\15-06-2021\Thyrocare.Staff.Portal\Staff.Portal.Models\bin\Release\netcoreapp3.1\Staff.Portal.Models.pdb
+\\10.1.21.30\e\Sumit\15-06-2021\Thyrocare.Staff.Portal\Staff.Portal.Models\obj\Release\netcoreapp3.1\Staff.Portal.Models.csprojAssemblyReference.cache
+\\10.1.21.30\e\Sumit\15-06-2021\Thyrocare.Staff.Portal\Staff.Portal.Models\obj\Release\netcoreapp3.1\Staff.Portal.Models.AssemblyInfoInputs.cache
+\\10.1.21.30\e\Sumit\15-06-2021\Thyrocare.Staff.Portal\Staff.Portal.Models\obj\Release\netcoreapp3.1\Staff.Portal.Models.AssemblyInfo.cs
+\\10.1.21.30\e\Sumit\15-06-2021\Thyrocare.Staff.Portal\Staff.Portal.Models\obj\Release\netcoreapp3.1\Staff.Portal.Models.dll
+\\10.1.21.30\e\Sumit\15-06-2021\Thyrocare.Staff.Portal\Staff.Portal.Models\obj\Release\netcoreapp3.1\Staff.Portal.Models.pdb
+E:\Latest solutions\Deployed\10-07-2021\Thyrocare.Staff.Portal\Staff.Portal.Models\bin\Release\netcoreapp3.1\Staff.Portal.Models.deps.json
+E:\Latest solutions\Deployed\10-07-2021\Thyrocare.Staff.Portal\Staff.Portal.Models\bin\Release\netcoreapp3.1\Staff.Portal.Models.dll
+E:\Latest solutions\Deployed\10-07-2021\Thyrocare.Staff.Portal\Staff.Portal.Models\bin\Release\netcoreapp3.1\Staff.Portal.Models.pdb
+E:\Latest solutions\Deployed\10-07-2021\Thyrocare.Staff.Portal\Staff.Portal.Models\obj\Release\netcoreapp3.1\Staff.Portal.Models.csproj.AssemblyReference.cache
+E:\Latest solutions\Deployed\10-07-2021\Thyrocare.Staff.Portal\Staff.Portal.Models\obj\Release\netcoreapp3.1\Staff.Portal.Models.AssemblyInfoInputs.cache
+E:\Latest solutions\Deployed\10-07-2021\Thyrocare.Staff.Portal\Staff.Portal.Models\obj\Release\netcoreapp3.1\Staff.Portal.Models.AssemblyInfo.cs
+E:\Latest solutions\Deployed\10-07-2021\Thyrocare.Staff.Portal\Staff.Portal.Models\obj\Release\netcoreapp3.1\Staff.Portal.Models.csproj.CoreCompileInputs.cache
+E:\Latest solutions\Deployed\10-07-2021\Thyrocare.Staff.Portal\Staff.Portal.Models\obj\Release\netcoreapp3.1\Staff.Portal.Models.dll
+E:\Latest solutions\Deployed\10-07-2021\Thyrocare.Staff.Portal\Staff.Portal.Models\obj\Release\netcoreapp3.1\Staff.Portal.Models.pdb
+E:\Latest solutions\working solution\Thyrocare.Staff.Portal\Staff.Portal.Models\bin\Release\netcoreapp3.1\Staff.Portal.Models.deps.json
+E:\Latest solutions\working solution\Thyrocare.Staff.Portal\Staff.Portal.Models\bin\Release\netcoreapp3.1\Staff.Portal.Models.dll
+E:\Latest solutions\working solution\Thyrocare.Staff.Portal\Staff.Portal.Models\bin\Release\netcoreapp3.1\Staff.Portal.Models.pdb
+E:\Latest solutions\working solution\Thyrocare.Staff.Portal\Staff.Portal.Models\obj\Release\netcoreapp3.1\Staff.Portal.Models.csproj.AssemblyReference.cache
+E:\Latest solutions\working solution\Thyrocare.Staff.Portal\Staff.Portal.Models\obj\Release\netcoreapp3.1\Staff.Portal.Models.AssemblyInfoInputs.cache
+E:\Latest solutions\working solution\Thyrocare.Staff.Portal\Staff.Portal.Models\obj\Release\netcoreapp3.1\Staff.Portal.Models.AssemblyInfo.cs
+E:\Latest solutions\working solution\Thyrocare.Staff.Portal\Staff.Portal.Models\obj\Release\netcoreapp3.1\Staff.Portal.Models.csproj.CoreCompileInputs.cache
+E:\Latest solutions\working solution\Thyrocare.Staff.Portal\Staff.Portal.Models\obj\Release\netcoreapp3.1\Staff.Portal.Models.dll
+E:\Latest solutions\working solution\Thyrocare.Staff.Portal\Staff.Portal.Models\obj\Release\netcoreapp3.1\Staff.Portal.Models.pdb
+D:\Thyrocare.Staff.Portal\Staff.Portal.Models\bin\Release\netcoreapp3.1\Staff.Portal.Models.deps.json
+D:\Thyrocare.Staff.Portal\Staff.Portal.Models\bin\Release\netcoreapp3.1\Staff.Portal.Models.dll
+D:\Thyrocare.Staff.Portal\Staff.Portal.Models\bin\Release\netcoreapp3.1\Staff.Portal.Models.pdb
+D:\Thyrocare.Staff.Portal\Staff.Portal.Models\obj\Release\netcoreapp3.1\Staff.Portal.Models.csprojAssemblyReference.cache
+D:\Thyrocare.Staff.Portal\Staff.Portal.Models\obj\Release\netcoreapp3.1\Staff.Portal.Models.AssemblyInfoInputs.cache
+D:\Thyrocare.Staff.Portal\Staff.Portal.Models\obj\Release\netcoreapp3.1\Staff.Portal.Models.AssemblyInfo.cs
+D:\Thyrocare.Staff.Portal\Staff.Portal.Models\obj\Release\netcoreapp3.1\Staff.Portal.Models.csproj.CoreCompileInputs.cache
+D:\Thyrocare.Staff.Portal\Staff.Portal.Models\obj\Release\netcoreapp3.1\Staff.Portal.Models.dll
+D:\Thyrocare.Staff.Portal\Staff.Portal.Models\obj\Release\netcoreapp3.1\Staff.Portal.Models.pdb
+D:\Live Solutions\Thyrocare.Staff.Portal\Staff.Portal.Models\obj\Release\netcoreapp3.1\Staff.Portal.Models.csproj.CoreCompileInputs.cache
+D:\Live Solution\Thyrocare.Staff.Portal\Staff.Portal.Models\bin\Release\netcoreapp3.1\Staff.Portal.Models.deps.json
+D:\Live Solution\Thyrocare.Staff.Portal\Staff.Portal.Models\bin\Release\netcoreapp3.1\Staff.Portal.Models.dll
+D:\Live Solution\Thyrocare.Staff.Portal\Staff.Portal.Models\bin\Release\netcoreapp3.1\Staff.Portal.Models.pdb
+D:\Live Solution\Thyrocare.Staff.Portal\Staff.Portal.Models\obj\Release\netcoreapp3.1\Staff.Portal.Models.csprojAssemblyReference.cache
+D:\Live Solution\Thyrocare.Staff.Portal\Staff.Portal.Models\obj\Release\netcoreapp3.1\Staff.Portal.Models.AssemblyInfoInputs.cache
+D:\Live Solution\Thyrocare.Staff.Portal\Staff.Portal.Models\obj\Release\netcoreapp3.1\Staff.Portal.Models.AssemblyInfo.cs
+D:\Live Solution\Thyrocare.Staff.Portal\Staff.Portal.Models\obj\Release\netcoreapp3.1\Staff.Portal.Models.csproj.CoreCompileInputs.cache
+D:\Live Solution\Thyrocare.Staff.Portal\Staff.Portal.Models\obj\Release\netcoreapp3.1\Staff.Portal.Models.dll
+D:\Live Solution\Thyrocare.Staff.Portal\Staff.Portal.Models\obj\Release\netcoreapp3.1\Staff.Portal.Models.pdb
+D:\Live Solution\Thyrocare.Staff.Portal_11012022\Staff.Portal.Models\bin\Release\netcoreapp3.1\Staff.Portal.Models.deps.json
+D:\Live Solution\Thyrocare.Staff.Portal_11012022\Staff.Portal.Models\bin\Release\netcoreapp3.1\Staff.Portal.Models.dll
+D:\Live Solution\Thyrocare.Staff.Portal_11012022\Staff.Portal.Models\bin\Release\netcoreapp3.1\Staff.Portal.Models.pdb
+D:\Live Solution\Thyrocare.Staff.Portal_11012022\Staff.Portal.Models\obj\Release\netcoreapp3.1\Staff.Portal.Models.csprojAssemblyReference.cache
+D:\Live Solution\Thyrocare.Staff.Portal_11012022\Staff.Portal.Models\obj\Release\netcoreapp3.1\Staff.Portal.Models.AssemblyInfoInputs.cache
+D:\Live Solution\Thyrocare.Staff.Portal_11012022\Staff.Portal.Models\obj\Release\netcoreapp3.1\Staff.Portal.Models.AssemblyInfo.cs
+D:\Live Solution\Thyrocare.Staff.Portal_11012022\Staff.Portal.Models\obj\Release\netcoreapp3.1\Staff.Portal.Models.csproj.CoreCompileInputs.cache
+D:\Live Solution\Thyrocare.Staff.Portal_11012022\Staff.Portal.Models\obj\Release\netcoreapp3.1\Staff.Portal.Models.dll
+D:\Live Solution\Thyrocare.Staff.Portal_11012022\Staff.Portal.Models\obj\Release\netcoreapp3.1\Staff.Portal.Models.pdb

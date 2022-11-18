@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="3.1.8" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Staff.Portal.BizLayer\Staff.Portal.BizLayer.csproj" />
+    <ProjectReference Include="..\Staff.Portal.Interfaces\Staff.Portal.Interfaces.csproj" />
+    <ProjectReference Include="..\Staff.Portal.Models\Staff.Portal.Models.csproj" />
+  </ItemGroup>
+
+
+
+</Project>

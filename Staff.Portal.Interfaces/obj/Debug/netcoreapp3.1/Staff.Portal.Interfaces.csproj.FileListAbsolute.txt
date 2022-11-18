@@ -1,0 +1,218 @@
+E:\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Interfaces.deps.json
+E:\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Interfaces.dll
+E:\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Interfaces.pdb
+E:\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Models.dll
+E:\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Models.pdb
+E:\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.csprojAssemblyReference.cache
+E:\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.AssemblyInfoInputs.cache
+E:\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.AssemblyInfo.cs
+E:\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.csproj.CopyComplete
+E:\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.dll
+E:\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.pdb
+D:\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Interfaces.deps.json
+D:\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Interfaces.dll
+D:\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Interfaces.pdb
+D:\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Models.dll
+D:\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Models.pdb
+D:\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.csprojAssemblyReference.cache
+D:\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.AssemblyInfoInputs.cache
+D:\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.AssemblyInfo.cs
+D:\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.csproj.CopyComplete
+D:\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.dll
+D:\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.pdb
+E:\Namrata\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Interfaces.deps.json
+E:\Namrata\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Interfaces.dll
+E:\Namrata\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Interfaces.pdb
+E:\Namrata\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Models.dll
+E:\Namrata\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Models.pdb
+E:\Namrata\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.csprojAssemblyReference.cache
+E:\Namrata\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.AssemblyInfoInputs.cache
+E:\Namrata\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.AssemblyInfo.cs
+E:\Namrata\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.csproj.CopyComplete
+E:\Namrata\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.dll
+E:\Namrata\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.pdb
+D:\Live Solutions\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Interfaces.deps.json
+D:\Live Solutions\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Interfaces.dll
+D:\Live Solutions\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Interfaces.pdb
+D:\Live Solutions\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Models.dll
+D:\Live Solutions\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Models.pdb
+D:\Live Solutions\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.csprojAssemblyReference.cache
+D:\Live Solutions\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.AssemblyInfoInputs.cache
+D:\Live Solutions\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.AssemblyInfo.cs
+D:\Live Solutions\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.csproj.CopyComplete
+D:\Live Solutions\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.dll
+D:\Live Solutions\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.pdb
+C:\Users\0225e\Desktop\23-05-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Interfaces.deps.json
+C:\Users\0225e\Desktop\23-05-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Interfaces.dll
+C:\Users\0225e\Desktop\23-05-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Interfaces.pdb
+C:\Users\0225e\Desktop\23-05-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Models.dll
+C:\Users\0225e\Desktop\23-05-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Models.pdb
+C:\Users\0225e\Desktop\23-05-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.csprojAssemblyReference.cache
+C:\Users\0225e\Desktop\23-05-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.AssemblyInfoInputs.cache
+C:\Users\0225e\Desktop\23-05-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.AssemblyInfo.cs
+C:\Users\0225e\Desktop\23-05-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.csproj.CopyComplete
+C:\Users\0225e\Desktop\23-05-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.dll
+C:\Users\0225e\Desktop\23-05-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.pdb
+C:\Users\2059E\Desktop\24-05-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Interfaces.deps.json
+C:\Users\2059E\Desktop\24-05-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Interfaces.dll
+C:\Users\2059E\Desktop\24-05-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Interfaces.pdb
+C:\Users\2059E\Desktop\24-05-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Models.dll
+C:\Users\2059E\Desktop\24-05-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Models.pdb
+C:\Users\2059E\Desktop\24-05-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.csprojAssemblyReference.cache
+C:\Users\2059E\Desktop\24-05-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.AssemblyInfoInputs.cache
+C:\Users\2059E\Desktop\24-05-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.AssemblyInfo.cs
+C:\Users\2059E\Desktop\24-05-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\2059E\Desktop\24-05-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.csproj.CopyComplete
+C:\Users\2059E\Desktop\24-05-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.dll
+C:\Users\2059E\Desktop\24-05-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.pdb
+C:\Users\0225e\Desktop\25-05-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Interfaces.deps.json
+C:\Users\0225e\Desktop\25-05-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Interfaces.dll
+C:\Users\0225e\Desktop\25-05-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Interfaces.pdb
+C:\Users\0225e\Desktop\25-05-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Models.dll
+C:\Users\0225e\Desktop\25-05-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Models.pdb
+C:\Users\0225e\Desktop\25-05-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.csprojAssemblyReference.cache
+C:\Users\0225e\Desktop\25-05-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.AssemblyInfoInputs.cache
+C:\Users\0225e\Desktop\25-05-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.AssemblyInfo.cs
+C:\Users\0225e\Desktop\25-05-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.csproj.CopyComplete
+C:\Users\0225e\Desktop\25-05-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.dll
+C:\Users\0225e\Desktop\25-05-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.pdb
+\\CPLD3DTP0021\Team Sharing\KALPESH\28-05-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Interfaces.deps.json
+\\CPLD3DTP0021\Team Sharing\KALPESH\28-05-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Interfaces.dll
+\\CPLD3DTP0021\Team Sharing\KALPESH\28-05-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Interfaces.pdb
+\\CPLD3DTP0021\Team Sharing\KALPESH\28-05-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Models.dll
+\\CPLD3DTP0021\Team Sharing\KALPESH\28-05-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Models.pdb
+\\CPLD3DTP0021\Team Sharing\KALPESH\28-05-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.csprojAssemblyReference.cache
+\\CPLD3DTP0021\Team Sharing\KALPESH\28-05-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.AssemblyInfoInputs.cache
+\\CPLD3DTP0021\Team Sharing\KALPESH\28-05-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.AssemblyInfo.cs
+\\CPLD3DTP0021\Team Sharing\KALPESH\28-05-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.csproj.CopyComplete
+\\CPLD3DTP0021\Team Sharing\KALPESH\28-05-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.dll
+\\CPLD3DTP0021\Team Sharing\KALPESH\28-05-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.pdb
+E:\Latest solutions\01-06-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Interfaces.deps.json
+E:\Latest solutions\01-06-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Interfaces.dll
+E:\Latest solutions\01-06-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Interfaces.pdb
+E:\Latest solutions\01-06-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Models.dll
+E:\Latest solutions\01-06-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Models.pdb
+E:\Latest solutions\01-06-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.csprojAssemblyReference.cache
+E:\Latest solutions\01-06-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.AssemblyInfoInputs.cache
+E:\Latest solutions\01-06-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.AssemblyInfo.cs
+E:\Latest solutions\01-06-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.csproj.CopyComplete
+E:\Latest solutions\01-06-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.dll
+E:\Latest solutions\01-06-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.pdb
+E:\Latest solutions\09-06-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Interfaces.deps.json
+E:\Latest solutions\09-06-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Interfaces.dll
+E:\Latest solutions\09-06-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Interfaces.pdb
+E:\Latest solutions\09-06-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Models.dll
+E:\Latest solutions\09-06-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Models.pdb
+E:\Latest solutions\09-06-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.csprojAssemblyReference.cache
+E:\Latest solutions\09-06-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.AssemblyInfoInputs.cache
+E:\Latest solutions\09-06-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.AssemblyInfo.cs
+E:\Latest solutions\09-06-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.csproj.CopyComplete
+E:\Latest solutions\09-06-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.dll
+E:\Latest solutions\09-06-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.pdb
+D:\Live Solutions\11062021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Interfaces.deps.json
+D:\Live Solutions\11062021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Interfaces.dll
+D:\Live Solutions\11062021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Interfaces.pdb
+D:\Live Solutions\11062021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Models.dll
+D:\Live Solutions\11062021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Models.pdb
+D:\Live Solutions\11062021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.csprojAssemblyReference.cache
+D:\Live Solutions\11062021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.AssemblyInfoInputs.cache
+D:\Live Solutions\11062021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.AssemblyInfo.cs
+D:\Live Solutions\11062021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.csproj.CopyComplete
+D:\Live Solutions\11062021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.dll
+D:\Live Solutions\11062021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.pdb
+\\10.1.21.30\e\Sumit\15-06-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Interfaces.deps.json
+\\10.1.21.30\e\Sumit\15-06-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Interfaces.dll
+\\10.1.21.30\e\Sumit\15-06-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Interfaces.pdb
+\\10.1.21.30\e\Sumit\15-06-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Models.dll
+\\10.1.21.30\e\Sumit\15-06-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Models.pdb
+\\10.1.21.30\e\Sumit\15-06-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.csprojAssemblyReference.cache
+\\10.1.21.30\e\Sumit\15-06-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.AssemblyInfoInputs.cache
+\\10.1.21.30\e\Sumit\15-06-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.AssemblyInfo.cs
+\\10.1.21.30\e\Sumit\15-06-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.csproj.CopyComplete
+\\10.1.21.30\e\Sumit\15-06-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.dll
+\\10.1.21.30\e\Sumit\15-06-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.pdb
+E:\Latest solutions\Deployed\21-06-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Interfaces.deps.json
+E:\Latest solutions\Deployed\21-06-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Interfaces.dll
+E:\Latest solutions\Deployed\21-06-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Interfaces.pdb
+E:\Latest solutions\Deployed\21-06-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Models.dll
+E:\Latest solutions\Deployed\21-06-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Models.pdb
+E:\Latest solutions\Deployed\21-06-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.csprojAssemblyReference.cache
+E:\Latest solutions\Deployed\21-06-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.AssemblyInfoInputs.cache
+E:\Latest solutions\Deployed\21-06-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.AssemblyInfo.cs
+E:\Latest solutions\Deployed\21-06-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.csproj.CopyComplete
+E:\Latest solutions\Deployed\21-06-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.dll
+E:\Latest solutions\Deployed\21-06-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.pdb
+E:\Latest solutions\Deployed\10-07-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Interfaces.deps.json
+E:\Latest solutions\Deployed\10-07-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Interfaces.dll
+E:\Latest solutions\Deployed\10-07-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Interfaces.pdb
+E:\Latest solutions\Deployed\10-07-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Models.dll
+E:\Latest solutions\Deployed\10-07-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Models.pdb
+E:\Latest solutions\Deployed\10-07-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.csproj.AssemblyReference.cache
+E:\Latest solutions\Deployed\10-07-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.AssemblyInfoInputs.cache
+E:\Latest solutions\Deployed\10-07-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.AssemblyInfo.cs
+E:\Latest solutions\Deployed\10-07-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.csproj.CoreCompileInputs.cache
+E:\Latest solutions\Deployed\10-07-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.csproj.CopyComplete
+E:\Latest solutions\Deployed\10-07-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.dll
+E:\Latest solutions\Deployed\10-07-2021\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.pdb
+E:\Latest solutions\working solution\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Interfaces.deps.json
+E:\Latest solutions\working solution\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Interfaces.dll
+E:\Latest solutions\working solution\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Interfaces.pdb
+E:\Latest solutions\working solution\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Models.dll
+E:\Latest solutions\working solution\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Models.pdb
+E:\Latest solutions\working solution\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.csproj.AssemblyReference.cache
+E:\Latest solutions\working solution\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.AssemblyInfoInputs.cache
+E:\Latest solutions\working solution\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.AssemblyInfo.cs
+E:\Latest solutions\working solution\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.csproj.CoreCompileInputs.cache
+E:\Latest solutions\working solution\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.csproj.CopyComplete
+E:\Latest solutions\working solution\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.dll
+E:\Latest solutions\working solution\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.pdb
+D:\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.csproj.CoreCompileInputs.cache
+D:\Live Solutions\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.csproj.CoreCompileInputs.cache
+D:\Live Solution\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Interfaces.deps.json
+D:\Live Solution\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Interfaces.dll
+D:\Live Solution\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Interfaces.pdb
+D:\Live Solution\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Models.dll
+D:\Live Solution\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Models.pdb
+D:\Live Solution\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.csprojAssemblyReference.cache
+D:\Live Solution\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.AssemblyInfoInputs.cache
+D:\Live Solution\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.AssemblyInfo.cs
+D:\Live Solution\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.csproj.CoreCompileInputs.cache
+D:\Live Solution\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.csproj.CopyComplete
+D:\Live Solution\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.dll
+D:\Live Solution\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.pdb
+D:\Live Solution\Thyrocare.Staff.Portal_11012022\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Interfaces.deps.json
+D:\Live Solution\Thyrocare.Staff.Portal_11012022\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Interfaces.dll
+D:\Live Solution\Thyrocare.Staff.Portal_11012022\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Interfaces.pdb
+D:\Live Solution\Thyrocare.Staff.Portal_11012022\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Models.dll
+D:\Live Solution\Thyrocare.Staff.Portal_11012022\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Models.pdb
+D:\Live Solution\Thyrocare.Staff.Portal_11012022\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.csprojAssemblyReference.cache
+D:\Live Solution\Thyrocare.Staff.Portal_11012022\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.AssemblyInfoInputs.cache
+D:\Live Solution\Thyrocare.Staff.Portal_11012022\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.AssemblyInfo.cs
+D:\Live Solution\Thyrocare.Staff.Portal_11012022\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.csproj.CoreCompileInputs.cache
+D:\Live Solution\Thyrocare.Staff.Portal_11012022\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.csproj.CopyComplete
+D:\Live Solution\Thyrocare.Staff.Portal_11012022\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.dll
+D:\Live Solution\Thyrocare.Staff.Portal_11012022\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.pdb
+D:\31-05-2022(staff live)\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Interfaces.deps.json
+D:\31-05-2022(staff live)\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Interfaces.dll
+D:\31-05-2022(staff live)\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Interfaces.pdb
+D:\31-05-2022(staff live)\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Models.dll
+D:\31-05-2022(staff live)\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Models.pdb
+D:\31-05-2022(staff live)\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.csproj.AssemblyReference.cache
+D:\31-05-2022(staff live)\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+D:\31-05-2022(staff live)\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.AssemblyInfoInputs.cache
+D:\31-05-2022(staff live)\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.AssemblyInfo.cs
+D:\31-05-2022(staff live)\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.csproj.CoreCompileInputs.cache
+D:\31-05-2022(staff live)\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.csproj.CopyComplete
+D:\31-05-2022(staff live)\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.dll
+D:\31-05-2022(staff live)\Thyrocare.Staff.Portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.pdb
+C:\Users\e3618\Documents\GitHub\Thyrocare-staff-portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Interfaces.deps.json
+C:\Users\e3618\Documents\GitHub\Thyrocare-staff-portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Interfaces.dll
+C:\Users\e3618\Documents\GitHub\Thyrocare-staff-portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Interfaces.pdb
+C:\Users\e3618\Documents\GitHub\Thyrocare-staff-portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Models.dll
+C:\Users\e3618\Documents\GitHub\Thyrocare-staff-portal\Staff.Portal.Interfaces\bin\Debug\netcoreapp3.1\Staff.Portal.Models.pdb
+C:\Users\e3618\Documents\GitHub\Thyrocare-staff-portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.csprojAssemblyReference.cache
+C:\Users\e3618\Documents\GitHub\Thyrocare-staff-portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.AssemblyInfoInputs.cache
+C:\Users\e3618\Documents\GitHub\Thyrocare-staff-portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.AssemblyInfo.cs
+C:\Users\e3618\Documents\GitHub\Thyrocare-staff-portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.csproj.CopyComplete
+C:\Users\e3618\Documents\GitHub\Thyrocare-staff-portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.dll
+C:\Users\e3618\Documents\GitHub\Thyrocare-staff-portal\Staff.Portal.Interfaces\obj\Debug\netcoreapp3.1\Staff.Portal.Interfaces.pdb

@@ -1,0 +1,245 @@
+﻿@{
+    ViewData["Title"] = "Staff :: TestMenu";
+    Layout = "~/Views/Shared/_ViewTemplate.cshtml";
+}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/11.0.2/bootstrap-slider.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/11.0.2/css/bootstrap-slider.min.css" />
+<style>
+    .footer {
+        position: absolute;
+        left: 255px;
+    }
+
+    @@media screen and (max-width: 425px) {
+        .custom-mt-1 {
+            margin-top: 5px;
+        }
+    }
+
+    .slider.slider-horizontal {
+        width: 100%;
+    }
+
+    .slider-selection {
+        background-color: #5370CE;
+        background-image: linear-gradient(to bottom, #5370CE, #5370CD);
+    }
+
+    .slider-handle {
+        background-color: #5370CE !important;
+        background-image: linear-gradient(to bottom, #5370CE, #5370CD);
+    }
+</style>
+
+
+<div class="left-side-menu">
+    <div class="slimscroll-menu">
+        <!--- Sidemenu -->
+        <div id="sidebar-menu">
+            <section class="filter">
+                <!-- Section: Condition -->
+                <section class="mb-4">
+                    <h6 class="font-weight-bold mb-3">Type</h6>
+
+                    <div class="form-check pl-0 mb-3">
+                        <input name="TypeDiv" type="checkbox" class="form-check-input filled-in" id="Package">
+                        <label class="form-check-label small text-uppercase card-link-secondary" for="Package">Package</label>
+                    </div>
+                    <div class="form-check pl-0 mb-3">
+                        <input name="TypeDiv" type="checkbox" class="form-check-input filled-in" id="Profile">
+                        <label class="form-check-label small text-uppercase card-link-secondary" for="Profile">Profile</label>
+                    </div>
+                    <div class="form-check pl-0 mb-3">
+                        <input name="TypeDiv" type="checkbox" class="form-check-input filled-in" id="Test">
+                        <label class="form-check-label small text-uppercase card-link-secondary" for="Test">Test</label>
+                    </div>
+
+                    <h6 class="font-weight-bold mb-3">Category</h6>
+
+
+                    <div class="form-check pl-0 mb-3">
+                        <input name="CategoryDiv" type="checkbox" class="form-check-input filled-in" id="cwellness" data-filter="Child Wellness">
+                        <label class="form-check-label small text-uppercase card-link-secondary" for="cwellness">Child Wellness</label>
+                    </div>
+                    <div class="form-check pl-0 mb-3">
+                        <input name="CategoryDiv" type="checkbox" class="form-check-input filled-in" id="food" data-filter="Food Intolerance">
+                        <label class="form-check-label small text-uppercase card-link-secondary" for="food">Food Intolerance</label>
+                    </div>
+                    <div class="form-check pl-0 mb-3">
+                        <input name="CategoryDiv" type="checkbox" class="form-check-input filled-in" id="heart" data-filter="Heart Health">
+                        <label class="form-check-label small text-uppercase card-link-secondary" for="heart">Heart Health</label>
+                    </div>
+                    <div class="form-check pl-0 mb-3">
+                        <input name="CategoryDiv" type="checkbox" class="form-check-input filled-in" id="thyroid" data-filter="Thyroid">
+                        <label class="form-check-label small text-uppercase card-link-secondary" for="thyroid">Thyroid</label>
+                    </div>
+                    <div class="form-check pl-0 mb-3">
+                        <input name="CategoryDiv" type="checkbox" class="form-check-input filled-in" id="vitamin" data-filter="Vitamin">
+                        <label class="form-check-label small text-uppercase card-link-secondary" for="vitamin">Vitamin</label>
+                    </div>
+
+                    <h6 class="font-weight-bold mb-3">Sort by</h6>
+                    <h6 class="mb-2 price">Price</h6>
+
+                    <div class="slider-price d-flex align-items-center my-2">
+                        <form class="multi-range-field w-100 mb-1">
+                            <input id="multi" type="text" class="multi-range" data-slider-id='multiSlider' data-slider-min="100" data-slider-max="10000" data-slider-step="1" data-slider-value="10000" />
+                        </form>
+                    </div>
+
+
+                    <div class="form-check pl-0 mb-3">
+                        <input name="FastingDiv" type="checkbox" class="form-check-input filled-in" id="fasting">
+                        <label class="form-check-label small text-uppercase card-link-secondary" for="fasting">Fasting</label>
+                    </div>
+                    <div class="form-check pl-0 mb-3">
+                        <input name="FastingDiv" type="checkbox" class="form-check-input filled-in" id="Non-fasting">
+                        <label class="form-check-label small text-uppercase card-link-secondary" for="Non-fasting">Non-fasting</label>
+                    </div>
+
+
+                </section>
+                <!-- Section: Condition -->
+                <!-- Section: Price version 2 -->
+            </section>
+        </div>
+        <!-- End Sidebar -->
+        <div class="clearfix"></div>
+    </div>
+    <!-- Sidebar -left -->
+
+</div>
+<!-- Left Sidebar End -->
+<!-- ============================================================== -->
+<!-- Start Page Content here -->
+<!-- ============================================================== -->
+<div class="content-page">
+    <div class="content">
+        <!-- Start Content-->
+        <div class="container-fluid">
+            <div class="card-box" style="margin-top: 45px; ">
+                <!-- New code starts from here -->
+                <section class="section-table-margin">
+                    <div class="container-fluid t-profile bg-white">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-12">
+                                <h3 style="text-align: center;font-weight: 500;padding: 0px 0px 5px;">
+                                    Test Menu
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="test-menu container_mt">
+                            <div class="row mb-1">
+                                <div class="col-sm-12 col-md-3">
+                                    <label for="lname" class="lbl_font">Booking Type:</label>
+                                </div>
+                                <div class="col-sm-12 col-md-9" style="padding-bottom:5px">
+                                    <input type="radio" name="radSize" id="Regular" value="Regular" checked="checked" />
+                                    <label for="Regular">Regular</label>
+                                    <input type="radio" name="radSize" id="TRF" value="TRF" />
+                                    <label for="TRF">TRF</label>
+                                    <input type="radio" name="radSize" id="CDE" value="CDE" />
+                                    <label for="CDE">CDE</label>
+                                </div>
+                            </div>
+                            <div class="row mb-1">
+                                <div class="col-sm-12 col-md-3">
+                                    <label for="lname" class="lbl_font">Enter Mobile Number/Promo Code</label>
+                                </div>
+                                <div class="col-sm-12 col-md-3" style="padding-bottom:5px">
+                                    <input type="text" id="PromoCode" class="form-control" maxlength="20" onkeypress="return IsAlphaNumeric(event); blockSpecialChar(event);" placeholder="Mobile Number/Promo Code"
+                                           onkeyup="this.value=this.value.replace(/[^a-zA-Z0-9]/g,'');PromoCode(this);leftTrim(this);" onkeydown="return (event.keyCode!=13);">
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-2">
+                                    <button type="button" class="btn report-bttn" style="width:100%" onclick="return checkCode();">Submit</button>
+                                </div>
+                                <div class="col-sm-12 col-md-3 custom-mt-1">
+                                    Customer Type: <span id="CustomerType"></span> <br />
+                                    Last availed on: <span id="LastAvailedOn"></span> <br />
+                                    Availed Product: <span id="AvailedProduct"></span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12 col-md-12">
+                                    <form class="header-search-form-test">
+                                        <input type="text" placeholder="Search" onkeyup="FilterByText();" id="SearchOnTest" onkeypress=" return trim(event)">
+                                        @*<button><i class="fa fa-search red-search-icon"></i></button>*@
+                                    </form>
+                                    <div class="scroll redscroll" id="ProductList">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="SelectedProduct">
+
+                        </div>
+                    </div>
+                </section>
+                <!-- New code ends here -->
+
+            </div>
+        </div><!--container-->
+    </div><!--content--->
+</div><!--content page-->
+
+@{
+    if (!string.IsNullOrEmpty(ViewBag.ErroMessage))
+    {
+        <script type="text/javascript">
+               setTimeout(function () {
+                AlertBox('@ViewBag.ErroMessage');
+              }, 1000);
+        </script>
+    }
+}
+
+<script src="~/assets/js/test3166.min.js?v1"></script>
+<script src="~/assets/js/alltests4793.min.js?v1"></script>
+<script src="~/assets/JScripts/Tests.js?v7"></script>
+<script src="~/assets/JScripts/Cart.js?v2"></script>
+<script src="~/assets/JScripts/Session.js?v1"></script>
+
+<script>
+    $(document).ready(function () {
+        localStorage.removeItem("ITEMS");
+        localStorage.removeItem("MstTests");
+        localStorage.removeItem("SelectedItems");
+        updateCartCount();
+
+        $(".button-menu-mobile").on("click", function (t) {
+            var width = $(window).width();
+            if (width < 768) {
+                $(".left-side-menu").toggle();
+            }
+        });
+
+        $('input[type=radio][name=radSize]').change(function () {
+            localStorage.removeItem("ITEMS");
+            localStorage.removeItem("MstTests");
+            localStorage.removeItem("SelectedItems");
+            updateCartCount();
+            setSelectedProductDropdown();
+            $("div#ProductList").html("");
+            $('#SelectedProduct').empty();
+            $("#PromoCode").val('');
+
+            localStorage.setItem("BookingType", this.value);
+        });
+    });
+    function IsAlphaNumeric(e) {
+        // alert(e.keyCode);
+        var keyCode = e.keyCode == 0 ? e.charCode : e.keyCode;
+        var ret = ((keyCode >= 48 && keyCode <= 57) || (keyCode >= 65 && keyCode <= 90) || (keyCode >= 97 && keyCode <= 122) || (keyCode == 32));
+        // document.getElementById("error").style.display = ret ? "none" : "inline";
+        return ret;
+    }
+    function leftTrim(element) {
+        if (element)
+            element.value = element.value.replace(/^\s+/, "");
+    }
+ 
+ 
+   
+  
+</script>
